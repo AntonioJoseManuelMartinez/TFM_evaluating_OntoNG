@@ -1,4 +1,4 @@
-# TFM_Antonio
+# Evaluating_OntoNG
 
 Repositorio de trabajo del Trabajo Fin de Máster sobre evaluación de generación de ontologías a partir de datasets biomédicos mediante LLMs, comparando condiciones **sin RAG** y **con RAG**.
 
