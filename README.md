@@ -1,35 +1,37 @@
-# Evaluating_OntoNG
+# Evaluating OntoNG
 
-Repositorio de trabajo del Trabajo Fin de Máster sobre evaluación de generación de ontologías a partir de datasets biomédicos mediante LLMs, comparando condiciones **sin RAG** y **con RAG**.
+This repository supports a Master’s Thesis focused on evaluating ontology generation from biomedical datasets using large language models (LLMs), comparing **non-RAG** and **RAG-based** settings.
 
-## Objetivo
+## Objective
 
-El objetivo de este trabajo es evaluar la capacidad de un sistema basado en modelos de lenguaje para:
+The aim of this project is to evaluate the ability of an LLM-based system to:
 
-1. inferir un esquema ontológico a partir de datos tabulares biomédicos,
-2. generar una ontología en formato RDF/OWL/Turtle,
-3. comparar el resultado generado automáticamente con esquemas/ontologías manuales de referencia,
-4. analizar si el uso de **RAG** con ontologías de contexto mejora el resultado respecto a una ejecución sin RAG.
+1. infer an ontological schema from biomedical tabular data,
+2. generate an ontology in RDF/OWL/Turtle format,
+3. compare the automatically generated output with manually created reference schemas or ontologies,
+4. assess whether the use of **RAG** with context ontologies improves the results compared with a non-RAG setup.
 
-## Entorno de trabajo
+## Working environment
 
-- **OntoNG** como motor principal de generación ontológica.
-- **RAGannotationAPI** como backend RAG.
-- **Neo4j** para almacenamiento de embeddings ontológicos.
-- Modelos GPT de OpenAI para las fases de generación.
-- Ontologías de contexto derivadas de BioGateway, entre ellas:
+The project is based on the following components:
+
+- **OntoNG** as the main ontology generation engine,
+- **RAGannotationAPI** as the RAG backend,
+- **Neo4j** for storing ontology embeddings,
+- OpenAI GPT models for the ontology generation stages,
+- context ontologies derived from BioGateway, including:
   - `crm`
   - `crm2gene`
   - `crm2phen`
 
-## Dataset inicial utilizado
+## Initial dataset used
 
-El primer experimento real se ha realizado con una muestra de 25 filas de `enh2disease-1.0.2.txt`, procedente de **DiseaseEnhancer**, una base de datos de asociaciones entre enhancers y enfermedades.
+The first real experiment was conducted using a 25-row sample from `enh2disease-1.0.2.txt`, obtained from **DiseaseEnhancer**, a database of enhancer–disease associations.
 
-## Estructura del repositorio
+## Repository structure
 
-- `experiments/`: descripción de los experimentos realizados.
-- `data/samples/`: muestras de datos utilizadas en las pruebas.
-- `scripts/`: scripts Python empleados para ejecutar OntoNG con y sin RAG.
-- `results/`: resultados generados (`.puml`, `.ttl`, `.json`).
-- `notes/`: observaciones, incidencias y decisiones metodológicas.
+- `experiments/`: descriptions of the experiments carried out
+- `data/samples/`: data samples used in the tests
+- `scripts/`: Python scripts used to run OntoNG with and without RAG
+- `results/`: generated outputs (`.puml`, `.ttl`, `.json`)
+- `notes/`: observations, issues, and methodological decisions
