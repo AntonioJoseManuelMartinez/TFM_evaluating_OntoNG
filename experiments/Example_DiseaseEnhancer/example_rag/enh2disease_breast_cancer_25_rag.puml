@@ -1,0 +1,19 @@
+@startuml
+class Enhancer {
+    +enhancerId: string
+    +chromosome: string
+    +startPosition: integer
+    +endPosition: integer
+}
+
+class Gene {
+    +targetGene: string
+}
+
+class Disease {
+    +disease: string
+}
+
+Enhancer "1" -- "0..*" Gene : targets
+Gene "0..*" -- "0..*" Disease : associated with
+@enduml

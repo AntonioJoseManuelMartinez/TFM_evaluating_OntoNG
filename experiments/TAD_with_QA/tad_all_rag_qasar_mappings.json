@@ -1,0 +1,22 @@
+{
+  "mapped_terms": {},
+  "mapped_relations": {},
+  "mapped_properties": {},
+  "ontology_ids": [
+    "gene2phen",
+    "tad",
+    "crm2phen",
+    "gene",
+    "prot",
+    "tfac2gene",
+    "crm2gene",
+    "crm",
+    "prot2mf",
+    "prot2cc",
+    "prot2bp",
+    "reg2targ",
+    "prot2prot",
+    "ortho",
+    "crm2tfac"
+  ]
+}
