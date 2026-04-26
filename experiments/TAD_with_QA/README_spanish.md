@@ -285,10 +285,8 @@ Los principales archivos asociados a este experimento son:
 
 ## Nota final
 
-Este experimento es relevante para el TFM porque proporciona un caso realista en el que:
+Este experimento es relevante para porque proporciona un caso realista en el que:
 
 - el RAG contribuye a la reutilización semántica
 - dicha reutilización es detectable e interpretable
 - pero su efecto no es completo ni uniforme en todos los componentes de la ontología
-
-Por ello, constituye un ejemplo útil no solo como resultado positivo, sino también como evidencia de que el impacto del contexto ontológico en la generación ontológica basada en LLMs es **condicional y no automático**.
