@@ -1,0 +1,20 @@
+@startuml
+class Enhancer {
+  +enhancerId : xsd:string (PK)
+  chromosome : xsd:string
+  startPosition : xsd:float
+  endPosition : xsd:float
+}
+
+class Gene {
+  +associatedGene : xsd:string (PK)
+}
+
+class Disease {
+  +diseaseName : xsd:string (PK)
+}
+
+Enhancer "0..*" --> "1" Gene : associatedWith
+Enhancer "0..*" --> "1" Disease : linkedTo
+
+@enduml

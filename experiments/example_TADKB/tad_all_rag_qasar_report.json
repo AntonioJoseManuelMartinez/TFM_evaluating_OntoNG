@@ -1,0 +1,2396 @@
+{
+  "metrics": {
+    "metrics": {
+      "id": "69ea41de7a2911592267b0a6",
+      "projectId": null,
+      "ontologyId": "69ea41da7a2911592267b06e",
+      "timestamp": "2026-04-23T15:59:26.726Z",
+      "metrics": [
+        {
+          "label": "Annotation properties with no description",
+          "evaluationId": "evaluation-242af848-7e71-4a85-889c-bb7b722148d9",
+          "acronym": "APWND",
+          "value": 1.0,
+          "scaledValue": 1.0,
+          "definition": "The Percentage of annotation properties lacking a description in the ontology.",
+          "comment": "",
+          "iriname": "AnnotationPropertiesWithNoDescriptionMetric"
+        },
+        {
+          "label": "Lexical regularities per class",
+          "evaluationId": "evaluation-dcda377f-0036-440b-bfc1-43b2d26d54aa",
+          "acronym": "LRsxC",
+          "value": 0.375,
+          "scaledValue": 1.0,
+          "definition": "This metric measures the proportion between the total number of lexical regularities appearing in the ontology and the total number of classes. This metric can measure whether the ontology is using genus-differentia naming style.",
+          "comment": "The number of lexical regularities appearing in the ontology over the number of classes.",
+          "iriname": "LexicalRegularitiesPerClassMetric"
+        },
+        {
+          "label": "Names per data property",
+          "evaluationId": "evaluation-5065e08c-5089-421e-8406-1dfdd7323776",
+          "acronym": "NxDP",
+          "value": 1.0,
+          "scaledValue": 3.0,
+          "definition": "This metric accounts for the number of names associated with data type properties, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology data type properties divided by the total number of data type properties in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are data type properties without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are data type properties with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.",
+          "comment": "The total number of data property names over the total number of data properties.",
+          "iriname": "NamesPerDataPropertyMetric"
+        },
+        {
+          "label": "Coupling between objects",
+          "evaluationId": "evaluation-f6a4bb84-f9e2-494c-97f0-31ea60303f7a",
+          "acronym": "CBOOnto",
+          "value": 8.0,
+          "scaledValue": 3.0,
+          "definition": "Number of related classes. Number of direct ancestor of classes divided by the number of classes minus subclasses of Thing CBOOnto=∑|SupCi|/(∑|Ci| -| RThing|) ",
+          "comment": "Number of related classes. Number of direct ancestor of classes divided by the number of classes minus subclasses of Thing.",
+          "iriname": "CouplingBetweenObjectsMetric"
+        },
+        {
+          "label": "Number of properties",
+          "evaluationId": "evaluation-7f27c67b-cd28-417b-819d-08a1532d7d09",
+          "acronym": "NOMOnto",
+          "value": 7.555555555555555,
+          "scaledValue": 2.0,
+          "definition": "Number of properties per class. Mean number of object and data property usages per class NOMOnto=∑| PCi|∕∑|Ci| ",
+          "comment": "Number of properties per class. Mean number of object and data property usages per class.",
+          "iriname": "NumberOfPropertiesMetric"
+        },
+        {
+          "label": "Synonyms per data property",
+          "evaluationId": "evaluation-e3e4e7d0-7015-4300-ba67-fcc1be2c10fe",
+          "acronym": "SxDP",
+          "value": 0.0,
+          "scaledValue": 1.0,
+          "definition": "This metric accounts for the number of synonyms associated with data type properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with data type properties divided by the total number of data type properties in the ontology. The range of the value of this metric is the set of real positive numbers.",
+          "comment": "The total number of data property synonyms over the total number of data properties.",
+          "iriname": "SynonymsPerDataPropertyMetric"
+        },
+        {
+          "label": "Annotation richness",
+          "evaluationId": "evaluation-0bf41182-9da9-4527-bef9-04f8850a4c3c",
+          "acronym": "ANOnto",
+          "value": 0.8888888888888888,
+          "scaledValue": 5.0,
+          "definition": "Mean number of annotation properties per class ANOnto=∑|ACi| /∑|Ci|; where Ci is the i-th class in the ontology ",
+          "comment": "Mean number of annotation properties per class.",
+          "iriname": "AnnotationRichnessMetric"
+        },
+        {
+          "label": "Descriptions per annotation property",
+          "evaluationId": "evaluation-ceb94201-84f8-4d9c-befd-11e9b10f0118",
+          "acronym": "DxAP",
+          "value": 0.0,
+          "scaledValue": 1.0,
+          "definition": "This metric accounts for the number of descriptions associated with annotation properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology annotation properties divided by the total number of annotation properties in the ontology. The range of the value of this metric is the set of real positive numbers.",
+          "comment": "The total number of annotation property descriptions over the total number of annotation properties.",
+          "iriname": "DescriptionsPerAnnotationPropertyMetric"
+        },
+        {
+          "label": "Ancestors per class",
+          "evaluationId": "evaluation-98105d8c-eba4-44c4-96e5-1505335d5805",
+          "acronym": "POnto",
+          "value": 0.0,
+          "scaledValue": 1.0,
+          "definition": "Mean number of direct ancestor per class POnto=∑|SupCi| /∑|Ci| ",
+          "comment": "",
+          "iriname": "AncestorsPerClassMetric"
+        },
+        {
+          "label": "Lexically suggest logically define",
+          "evaluationId": "evaluation-51067093-ce7a-4363-b74f-4d173690ce2a",
+          "acronym": "LSLD",
+          "value": 1.0,
+          "scaledValue": 5.0,
+          "definition": "This metric is related to the design principle of the same name, which we interpret as follows: what is expressed in natural language for humans should be expressed as logical axioms for the machine. It is calculated as the ratio in which an LR class is semantically related to other classes exhibiting its lexical regularity. Here, two classes are semantically related if there exist a path of an arbitrary length between them through the axioms in the ontology (i.e. subclass of, equivalency, or domain/range property). For computational reasons, we limited the length of the path between classes up to 5 steps; thus, classes semantically related between them through longer paths will be considered as not semantically related. In this case, positive cases are classes exhibiting a lexical regularity and that are semantically linked with the corresponding LR class. Negative cases are classes exhibiting a lexical regularity and that are not semantically linked with the corresponding LR class. The value of the metric is calculated by dividing the positive cases by the total number of cases. This metric is calculated for each LR class. The final value of the metric for an ontology is calculated as the sum of all the positive cases divided by the sum of all the positive and negative cases obtained by each LR class in the ontology. The value is in the range [0, 1], the highest values representing the best values for the metric.",
+          "comment": "The degree in which LR classes are semantically linked to the classes exhibiting the corresponding lexical regularity.",
+          "iriname": "LexicallySuggestLogicallyDefineMetric"
+        },
+        {
+          "label": "Attribute richness",
+          "evaluationId": "evaluation-c4840720-7aa5-4a57-a9c0-f44fe03af2e4",
+          "acronym": "AROnto",
+          "value": 1.8888888888888888,
+          "scaledValue": 5.0,
+          "definition": "Number of restrictions of the ontology per classes AROnto=∑|AttCi| / ∑|Ci |; where AttCi, is the set of Attributes of the Ci ",
+          "comment": "Number of restrictions of the ontology per classes.",
+          "iriname": "AttributeRichnessMetric"
+        },
+        {
+          "label": "Lack of cohesion in methods",
+          "evaluationId": "evaluation-ea669bae-0944-4da5-819c-b85c9b84349a",
+          "acronym": "LCOMOnto",
+          "value": 1.0,
+          "scaledValue": 5.0,
+          "definition": "Semantic and conceptual relatedness of classes. It can be used to measure the separation of responsibilities and independence of components of ontologies LCOMOnto=∑Lenght(path(|C(leaf)i|))/m , where Lenght(path|C(leaf)i|) is the length of the path from the leaf class i to Thing, and m is the total number of paths in the ontology ",
+          "comment": "Semantic and conceptual relatedness of classes.",
+          "iriname": "LackOfCohesionInMethodsMetric"
+        },
+        {
+          "label": "Data properties with no description",
+          "evaluationId": "evaluation-e33c4ddf-9272-47f1-b14d-732c52fdadb3",
+          "acronym": "DPWND",
+          "value": 0.0,
+          "scaledValue": 3.0,
+          "definition": "The Percentage of data properties lacking a description in the ontology.",
+          "comment": "",
+          "iriname": "DataPropertiesWithNoDescriptionMetric"
+        },
+        {
+          "label": "Systematic naming",
+          "evaluationId": "evaluation-1ea6e733-4e3d-4b75-8469-cda71ffd9680",
+          "acronym": "SYSNAM",
+          "value": NaN,
+          "scaledValue": 1.0,
+          "definition": "This metric is related to the ontology design principle that states that classes in the same taxonomy should share part of their name, since subclasses are specializations of the parent class. In other words, class names should follow a genus-differentia style. This metric is calculated as the ratio of subclasses of an LR class that exhibit the lexical regularity of the parent class. This requires to calculate how many subclasses of a given LR class exhibit the lexical regularity in their name (positive cases) and how many do not (negative cases). The value of the metric is calculated by dividing the positive cases by the total number of cases. It is calculated for each LR class. The final value of the metric for an ontology is calculated as the sum of all the positive cases divided by the sum of all the positive and negative cases obtained by each LR class in the ontology. The value is in the range [0, 1], the highest values representing the best values for the metric.",
+          "comment": "The degree in which hierarchies under LR classes exhibit the lexical regularity of the parent class.",
+          "iriname": "SystematicNamingMetric"
+        },
+        {
+          "label": "Number of classes",
+          "evaluationId": "evaluation-92a95fa7-1a89-46e3-acf4-f02a00a00fe7",
+          "acronym": "NCLASSES",
+          "value": 8.0,
+          "scaledValue": 1.0,
+          "definition": "This metric calculates the number of classes asserted in the ontology.",
+          "comment": "",
+          "iriname": "NumberOfClassesMetric"
+        },
+        {
+          "label": "Number of children classes",
+          "evaluationId": "evaluation-9dffe7ef-74e5-44d8-880a-93fe36022187",
+          "acronym": "NOCOnto",
+          "value": 8.0,
+          "scaledValue": 2.0,
+          "definition": "Number of the direct subclasses divided by the number of classes minus the number of leaf classes NOCOnto=∑|RCi|/(∑|Ci| - ∑|C(leaf)i)|) ",
+          "comment": "Number of the direct subclasses divided by the number of classes minus the number of leaf classes",
+          "iriname": "NumberOfChildrenClassesMetric"
+        },
+        {
+          "label": "Object properties with no name",
+          "evaluationId": "evaluation-f9d091fb-c7a7-4840-a877-ed1f163f23d1",
+          "acronym": "OPWNN",
+          "value": 0.0,
+          "scaledValue": 3.0,
+          "definition": "The Percentage of object properties lacking a name in the ontology.",
+          "comment": "",
+          "iriname": "ObjectPropertiesWithNoNameMetric"
+        },
+        {
+          "label": "Properties richness",
+          "evaluationId": "evaluation-ea1eb4c6-ebf0-41b0-a6f3-748812d29691",
+          "acronym": "PROnto",
+          "value": 0.8947368421052632,
+          "scaledValue": 5.0,
+          "definition": "Number of usages of object and data properties divided by the number of subclassof relations and properties PROnto=∑|PCi| ∕∑(|RCi| + ∑|PCi|) ",
+          "comment": "Number of usages of object and data properties divided by the number of subclassof relations and properties",
+          "iriname": "PropertiesRichnessMetric"
+        },
+        {
+          "label": "Relationships per class",
+          "evaluationId": "evaluation-4c79b080-e0df-4bea-83d7-f236926a069e",
+          "acronym": "INROnto",
+          "value": 0.8888888888888888,
+          "scaledValue": 5.0,
+          "definition": "Mean number of subclasses per class INROnto=∑| RCi| /∑|Ci| ",
+          "comment": "Mean number of subclasses per class",
+          "iriname": "RelationshipsPerClassMetric"
+        },
+        {
+          "label": "Descriptions per class",
+          "evaluationId": "evaluation-fc100466-9009-48a1-9b99-534442c92d77",
+          "acronym": "DxC",
+          "value": 1.0,
+          "scaledValue": 3.0,
+          "definition": "This metric accounts for the number of descriptions associated with classes, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology classes divided by the total number of classes in the ontology. The range of the value of this metric is the set of real positive numbers.",
+          "comment": "The total number of class descriptions over the total number of classes.",
+          "iriname": "DescriptionsPerClassMetric"
+        },
+        {
+          "label": "Descriptions per data property",
+          "evaluationId": "evaluation-289b44f4-c6d8-45f0-be39-daca6efca3cb",
+          "acronym": "DxDP",
+          "value": 1.0,
+          "scaledValue": 3.0,
+          "definition": "This metric accounts for the number of descriptions associated with data type properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology data type properties divided by the total number of data type properties in the ontology. The range of the value of this metric is the set of real positive numbers.",
+          "comment": "The total number of data property descriptions over the total number of data properties.",
+          "iriname": "DescriptionsPerDataPropertyMetric"
+        },
+        {
+          "label": "Names per annotation property",
+          "evaluationId": "evaluation-e53776c5-7a3c-4c24-975f-86e011a23ff0",
+          "acronym": "NxAP",
+          "value": 0.0,
+          "scaledValue": 1.0,
+          "definition": "This metric accounts for the number of names associated with annotation properties, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology annotation properties divided by the total number of annotation properties in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are annotation properties without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are annotation properties with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.",
+          "comment": "The total number of annotation property names over the total number of annotation properties.",
+          "iriname": "NamesPerAnnotationPropertyMetric"
+        },
+        {
+          "label": "Number of ancestor classes",
+          "evaluationId": "evaluation-d887ae19-90f4-4b4c-8bc9-42bd867e9db3",
+          "acronym": "NACOnto",
+          "value": 1.0,
+          "scaledValue": 5.0,
+          "definition": "Mean number of ancestor classes per leaf class. It is the number of direct superclasses per leaf class NACOnto=∑|SupC(Leaf)i|/∑|C(leaf)i)| ",
+          "comment": "Mean number of ancestor classes per leaf class.",
+          "iriname": "NumberOfAncestorClassesMetric"
+        },
+        {
+          "label": "Data properties with no synonym",
+          "evaluationId": "evaluation-9c5baed6-2ddc-4f92-8a16-1965d478442d",
+          "acronym": "DPWNS",
+          "value": 1.0,
+          "scaledValue": 1.0,
+          "definition": "The Percentage of data properties lacking a synonym in the ontology.",
+          "comment": "",
+          "iriname": "DataPropertiesWithNoSynonymMetric"
+        },
+        {
+          "label": "Descriptions per property",
+          "evaluationId": "evaluation-3bc6685d-6665-4d4c-a119-86d62f07b012",
+          "acronym": "DxP",
+          "value": 0.6296296296296297,
+          "scaledValue": 1.0,
+          "definition": "This metric accounts for the number of descriptions associated with properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology properties (including annotation, data, and object properties) divided by the total number of properties in the ontology. The range of the value of this metric is the set of real positive numbers.",
+          "comment": "",
+          "iriname": "DescriptionsPerPropertyMetric"
+        },
+        {
+          "label": "Weight method per class 2",
+          "evaluationId": "evaluation-b4441fb7-97b3-4aca-9109-84d33f69f6a6",
+          "acronym": "WMCOnto2",
+          "value": 1.0,
+          "scaledValue": 5.0,
+          "definition": "Mean number of path from Thing to a leaf class per leaf class WMCOnto2=∑path(|C(leaf)i|)/∑|C(leaf)i| , where path|C(leaf)i| is the number of the path from the leaf class i to Thing ",
+          "comment": "Mean number of path from Thing to a leaf class per leaf class.",
+          "iriname": "WeightMethodPerClass2Metric"
+        },
+        {
+          "label": "Synonyms per property",
+          "evaluationId": "evaluation-57464ada-5d15-4d75-b5e3-d0ee2e8090ab",
+          "acronym": "SxP",
+          "value": 0.0,
+          "scaledValue": 1.0,
+          "definition": "This metric accounts for the number of synonyms associated with properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with properties (including annotation, data, and object properties) divided by the total number of properties in the ontology. The range of the value of this metric is the set of real positive numbers.",
+          "comment": "The total number of property synonyms over the total number of properties, including data, object and annotation properties.",
+          "iriname": "SynonymsPerPropertyMetric"
+        },
+        {
+          "label": "Annotation properties with no synonym",
+          "evaluationId": "evaluation-402bcca3-7e1e-46ef-9c1e-b69bf0e03657",
+          "acronym": "APWNS",
+          "value": 1.0,
+          "scaledValue": 1.0,
+          "definition": "The Percentage of annotation properties lacking a synonym in the ontology.",
+          "comment": "",
+          "iriname": "AnnotationPropertiesWithNoSynonymMetric"
+        },
+        {
+          "label": "Data properties with no name",
+          "evaluationId": "evaluation-20cfdb26-506f-4c5f-8c21-9cab1a9a287c",
+          "acronym": "DPWNN",
+          "value": 0.0,
+          "scaledValue": 3.0,
+          "definition": "The Percentage of data properties lacking a name in the ontology.",
+          "comment": "",
+          "iriname": "DataPropertiesWithNoNameMetric"
+        },
+        {
+          "label": "Names per object property",
+          "evaluationId": "evaluation-812529c3-7a50-45b1-afeb-2bd02e1a6080",
+          "acronym": "NxOP",
+          "value": 1.0,
+          "scaledValue": 3.0,
+          "definition": "This metric accounts for the number of names associated with object properties, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology object properties divided by the total number of object properties in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are object properties without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are object properties with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.",
+          "comment": "The total number of object property names over the total number of object properties.",
+          "iriname": "NamesPerObjectPropertyMetric"
+        },
+        {
+          "label": "Annotation properties with no name",
+          "evaluationId": "evaluation-3cb8ddaf-70bf-40e0-b839-ad3982289fae",
+          "acronym": "APWNN",
+          "value": 1.0,
+          "scaledValue": 1.0,
+          "definition": "The Percentage of annotation properties lacking a name in the ontology.",
+          "comment": "",
+          "iriname": "AnnotationPropertiesWithNoNameMetric"
+        },
+        {
+          "label": "Classes with no description",
+          "evaluationId": "evaluation-2d8cbf1d-658a-47da-9531-c57793568bd5",
+          "acronym": "CWND",
+          "value": 0.0,
+          "scaledValue": 3.0,
+          "definition": "The Percentage of classes lacking a description in the ontology.",
+          "comment": "",
+          "iriname": "ClassesWithNoDescriptionMetric"
+        },
+        {
+          "label": "Synonyms per class",
+          "evaluationId": "evaluation-1d35f24d-b4de-47f2-80bc-a60eb91be91b",
+          "acronym": "SxC",
+          "value": 0.0,
+          "scaledValue": 1.0,
+          "definition": "This metric accounts for the number of synonyms associated with classes, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with classes divided by the total number of classes in the ontology. The range of the value of this metric is the set of real positive numbers.",
+          "comment": "The total number of class synonyms over the total number of classes.",
+          "iriname": "SynonymsPerClassMetric"
+        },
+        {
+          "label": "Relationship richness",
+          "evaluationId": "evaluation-680ec96e-927a-46c7-a02c-99f4f6aefab6",
+          "acronym": "RROnto",
+          "value": 0.10526315789473684,
+          "scaledValue": 1.0,
+          "definition": "Number of subclassof relationships divided by the number of subclassof relationships and properties RROnto=∑|RCi| ∕∑(|RCi| + ∑|PCi|) ",
+          "comment": "Number of subclassof relationships divided by the number of subclassof relationships and properties.",
+          "iriname": "RelationshipRichnessMetric"
+        },
+        {
+          "label": "Response for a class",
+          "evaluationId": "evaluation-d8b6dd24-c664-46c9-8768-84b007350b93",
+          "acronym": "RFCOnto",
+          "value": 8.444444444444445,
+          "scaledValue": 2.0,
+          "definition": "Number of properties that can be directly accessed from the class. number of usages of object and data properties and superclasses divided by the number of classes RFCOnto=(∑|PCi|+∑|SupCi|/(∑|Ci| ",
+          "comment": "Number of properties that can be directly accessed from the class.",
+          "iriname": "ResponseForAClassMetric"
+        },
+        {
+          "label": "Number of lexical regularity classes",
+          "evaluationId": "evaluation-34090112-a293-434f-8f83-8f433fb797fb",
+          "acronym": "NLRC",
+          "value": 1.0,
+          "scaledValue": 1.0,
+          "definition": "This metric returns the number of ontology classes whose complete name, set by using 'rdfs:label', is a lexical regularity.",
+          "comment": "The number of ontology classes whose name is a lexical regularity.",
+          "iriname": "NumberOfLexicalRegularityClassesMetric"
+        },
+        {
+          "label": "Weight method per class",
+          "evaluationId": "evaluation-f85dc328-33e0-4284-8c6e-f3bf13acc090",
+          "acronym": "WMCOnto",
+          "value": 1.0,
+          "scaledValue": 5.0,
+          "definition": "Mean length of the path from Thing to a leaf class WMCOnto=∑Lenght(path(|C(leaf)i|))/∑|C(leaf)i|, where Lenght(path|C(leaf)i|) is the length of the path from the leaf class i to Thing ",
+          "comment": "Mean length of the path from Thing to a leaf class.",
+          "iriname": "WeightMethodPerClassMetric"
+        },
+        {
+          "label": "Object properties with no description",
+          "evaluationId": "evaluation-9ff5373c-829b-4750-98a6-ad511d81ebe7",
+          "acronym": "OPWND",
+          "value": 0.0,
+          "scaledValue": 3.0,
+          "definition": "The Percentage of object properties lacking a description in the ontology.",
+          "comment": "",
+          "iriname": "ObjectPropertiesWithNoDescriptionMetric"
+        },
+        {
+          "label": "Tangledness",
+          "evaluationId": "evaluation-c88fad7d-5514-43b2-917d-e80dc4dbd57d",
+          "acronym": "TMOnto",
+          "value": 0.0,
+          "scaledValue": 1.0,
+          "definition": "Mean number of classes with more than 1 direct ancestor TMOnto=∑|C(DP)i|/∑|Ci|-1; where Ci is the i-th class in the ontology and C(DP)i is thei-th class in the ontology with more than one direct parent ",
+          "comment": "Mean number of classes with more than 1 direct ancestor",
+          "iriname": "TanglednessMetric"
+        },
+        {
+          "label": "Classes with no synonym",
+          "evaluationId": "evaluation-b3ed7293-3f22-46f6-beca-d2f1e6bb53cf",
+          "acronym": "CWNS",
+          "value": 1.0,
+          "scaledValue": 1.0,
+          "definition": "The Percentage of classes lacking a synonym in the ontology.",
+          "comment": "",
+          "iriname": "ClassesWithNoSynonymMetric"
+        },
+        {
+          "label": "Descriptions per object property",
+          "evaluationId": "evaluation-5fefc875-74f8-4736-bb1f-dcc8ed0378c9",
+          "acronym": "DxOP",
+          "value": 1.0,
+          "scaledValue": 3.0,
+          "definition": "This metric accounts for the number of descriptions associated with object properties, which can also be provided by using different annotation properties used by the community to include descriptions (rdfs:comment, skos:definition, dcterms:description, etc.). This metric is calculated as the total number of descriptions associated with ontology object properties divided by the total number of object properties in the ontology. The range of the value of this metric is the set of real positive numbers.",
+          "comment": "The total number of object property descriptions over the total number of object properties.",
+          "iriname": "DescriptionsPerObjectPropertyMetric"
+        },
+        {
+          "label": "Depth of subsumption hierarchy",
+          "evaluationId": "evaluation-a5d6dd7e-dc13-4731-8756-eb5552a95797",
+          "acronym": "DITOnto",
+          "value": 2.0,
+          "scaledValue": 5.0,
+          "definition": "Length of the largest path from Thing to a leaf class DITOnto=Max (∑D|Ci|), where Ci are the classes and D|Ci| is the length of the path from the i-thleaf class of the ontology to Thing ",
+          "comment": "Length of the largest path from Thing to a leaf class.",
+          "iriname": "DepthOfSubsumptionHierarchyMetric"
+        },
+        {
+          "label": "Classes with no name",
+          "evaluationId": "evaluation-933cb33a-8623-476e-9c4e-94c13623f86c",
+          "acronym": "CWNN",
+          "value": 0.0,
+          "scaledValue": 3.0,
+          "definition": "The Percentage of classes lacking a name in the ontology.",
+          "comment": "",
+          "iriname": "ClassesWithNoNameMetric"
+        },
+        {
+          "label": "Names per class",
+          "evaluationId": "evaluation-121a3e75-43b5-4726-bcdc-123ed24f662c",
+          "acronym": "NxC",
+          "value": 1.0,
+          "scaledValue": 3.0,
+          "definition": "This metric accounts for the number of names associated with classes, and uses the list of annotation properties used by the community for names (rdfs:label, skos:prefLabel, foaf:name, etc.). Then, this metric is calculated as the number of names associated with ontology classes divided by the total number of classes in the ontology. The range of the value of this metric is the set of real positive numbers. Values lower than one mean that there are classes without any name in the ontology. Contrariwise, a value greater than 1 indicates that there are classes with multiple names; possibly caused by the inclusion of multilingual names or by some design decision.",
+          "comment": "The total number of class names over the total number of classes.",
+          "iriname": "NamesPerClassMetric"
+        },
+        {
+          "label": "Names per property",
+          "evaluationId": "evaluation-04b388d8-a3f1-479f-af5b-fe9b43b18963",
+          "acronym": "NxP",
+          "value": 0.6296296296296297,
+          "scaledValue": 1.0,
+          "definition": "This metric accounts for the number of names associated with properties, which can also be provided by using different annotation properties used by the community to include names (rdfs:label, skos:prefLabel, foaf:name, etc.). This metric is calculated as the total number of names associated with ontology properties (including annotation, data, and object properties) divided by the total number of properties in the ontology. The range of the value of this metric is the set of real positive numbers.",
+          "comment": "",
+          "iriname": "NamesPerPropertyMetric"
+        },
+        {
+          "label": "Class richness",
+          "evaluationId": "evaluation-e100a4cd-e01f-4c59-baa6-b941602d1e07",
+          "acronym": "CROnto",
+          "value": 0.0,
+          "scaledValue": 1.0,
+          "definition": "Mean number of individuals per class CROnto=∑| ICi| / ∑|Ci |; where ICi, is the set ofindividuals of the Ci ",
+          "comment": "Mean number of individuals per class.",
+          "iriname": "ClassRichnessMetric"
+        },
+        {
+          "label": "Object properties with no synonym",
+          "evaluationId": "evaluation-395280a9-0f03-42c6-a963-f86c63de3b2c",
+          "acronym": "OPWNS",
+          "value": 1.0,
+          "scaledValue": 1.0,
+          "definition": "The Percentage of object properties lacking a synonym in the ontology.",
+          "comment": "",
+          "iriname": "ObjectPropertiesWithNoSynonymMetric"
+        },
+        {
+          "label": "Lexical regularity class percentage",
+          "evaluationId": "evaluation-f5ebd89a-7041-4295-99fb-95f0e4776924",
+          "acronym": "LRClassPCT",
+          "value": 0.125,
+          "scaledValue": 1.0,
+          "definition": "The percentage of classes in the ontology that are LR classes. In other words, the percentage of classes whose complete name is a lexical regularity.",
+          "comment": "The percentage of classes in the ontology that are LR classes.",
+          "iriname": "LexicalRegularityClassPercentageMetric"
+        },
+        {
+          "label": "Synonyms per annotation property",
+          "evaluationId": "evaluation-74f16098-1bef-4225-a39a-0937b80340a7",
+          "acronym": "SxAP",
+          "value": 0.0,
+          "scaledValue": 1.0,
+          "definition": "This metric accounts for the number of synonyms associated with annotation properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with annotation properties divided by the total number of annotation properties in the ontology. The range of the value of this metric is the set of real positive numbers.",
+          "comment": "The total number of annotation property synonyms over the total number of annotation properties.",
+          "iriname": "SynonymsPerAnnotationPropertyMetric"
+        },
+        {
+          "label": "Synonyms per object property",
+          "evaluationId": "evaluation-fc891601-0a23-443c-844b-88c87f75a854",
+          "acronym": "SxOP",
+          "value": 0.0,
+          "scaledValue": 1.0,
+          "definition": "This metric accounts for the number of synonyms associated with object properties, which can also be provided by using different annotation properties used by the community to include synonyms (oboInOwl:hasExactSynonym, skos:altLabel, iao:0000118, etc.). This metric is calculated as the number of synonyms associated with object properties divided by the total number of object properties in the ontology. The range of the value of this metric is the set of real positive numbers.",
+          "comment": "The total number of object property synonyms over the total number of object properties.",
+          "iriname": "SynonymsPerObjectPropertyMetric"
+        },
+        {
+          "label": "Tangledness 2",
+          "evaluationId": "evaluation-11a3c700-c958-40f2-9bae-3f5196ea2764",
+          "acronym": "TMOnto2",
+          "value": 0.0,
+          "scaledValue": 1.0,
+          "definition": "Mean number of direct ancestor of classes with more than 1 direct ancestor. TMOnto2=∑|SUP(CDP)i|/∑|CDPi|; where Ci is the i-th class in the ontology and SUP(CDP)i is the supperclass of the thei-th class in the ontology with more than one direct parent ",
+          "comment": "Mean number of direct ancestor of classes with more than 1 direct ancestor.",
+          "iriname": "Tangledness2Metric"
+        },
+        {
+          "label": "Number of lexical regularities",
+          "evaluationId": "evaluation-824b7f79-4430-4bd8-8dc9-f527d971f6ad",
+          "acronym": "NLR",
+          "value": 3.0,
+          "scaledValue": 1.0,
+          "definition": "This metric examines the names of the ontology classes, stabished by using 'rdfs:label', and identifies the number of lexical regularities appearing in the ontology.",
+          "comment": "The number of lexical regularities found in the ontology.",
+          "iriname": "NumberOfLexicalRegularitiesMetric"
+        }
+      ],
+      "characteristics": [
+        {
+          "name": "Structural characteristic",
+          "value": 3.4285714285714284,
+          "description": "The structural characteristic accounts for ontology quality factors such as consistency, formalisation, redundancy or tangledness.",
+          "subcharacteristics": [
+            {
+              "name": "Cohesion characteristic",
+              "value": 5.0,
+              "description": "An ontology has a high cohesion if the classes are strongly related.",
+              "subcharacteristics": [],
+              "iriname": "CohesionCharacteristic"
+            },
+            {
+              "name": "Redundancy characteristic",
+              "value": 5.0,
+              "description": "Capability of the ontology to be informative",
+              "subcharacteristics": [],
+              "iriname": "RedundancyCharacteristic"
+            },
+            {
+              "name": "Formal relation support characteristic",
+              "value": 1.0,
+              "description": "Capability of the ontology to represent relations supported for formal theories different to the formal support for taxonomy.",
+              "subcharacteristics": [],
+              "iriname": "FormalRelationSupportCharacteristic"
+            },
+            {
+              "name": "Structural accuracy characteristic",
+              "value": 2.0,
+              "description": "Degree of the correctness of the terms used in the ontology.",
+              "subcharacteristics": [],
+              "iriname": "StructuralAccuracyCharacteristic"
+            },
+            {
+              "name": "Tangledness characteristic",
+              "value": 1.0,
+              "description": "This measures the distribution of multiple parent categories, so that it is related to the existence of multiple inheritance.",
+              "subcharacteristics": [],
+              "iriname": "TanglednessCharacteristic"
+            },
+            {
+              "name": "Formalisation characteristic",
+              "value": 5.0,
+              "description": "Capability of the ontology to support reasoning",
+              "subcharacteristics": [],
+              "iriname": "FormalisationCharacteristic"
+            },
+            {
+              "name": "Consistency characteristic",
+              "value": 5.0,
+              "description": "Degree of the consistency of the ontology.",
+              "subcharacteristics": [],
+              "iriname": "ConsistencyCharacteristic"
+            },
+            {
+              "name": "Cycles characteristic",
+              "value": NaN,
+              "description": "The existence of cycles through a particular semantic relation is usually a sign of bad design, since they may lead to inconsistencies.",
+              "subcharacteristics": [],
+              "iriname": "CyclesCharacteristic"
+            },
+            {
+              "name": "Domain coverage characteristic",
+              "value": NaN,
+              "description": "The degree to which The ontology cover the specified domain",
+              "subcharacteristics": [],
+              "iriname": "DomainCoverageCharacteristic"
+            }
+          ],
+          "iriname": "StructuralCharacteristic"
+        },
+        {
+          "name": "Maintainability characteristic",
+          "value": 3.4658730158730156,
+          "description": "The capability of ontologies to be modified for changes in environments, in requirements or in functional specifications.",
+          "subcharacteristics": [
+            {
+              "name": "Modification stability characteristic",
+              "value": 2.8,
+              "description": "The degree to which The ontology can avoid unexpected effects from modifications of the software or knowledge.",
+              "subcharacteristics": [],
+              "iriname": "ModificationStabilityCharacteristic"
+            },
+            {
+              "name": "Testability characteristic",
+              "value": 3.4,
+              "description": "The degree to which the ontology modified can be validated.",
+              "subcharacteristics": [],
+              "iriname": "TestabilityCharacteristic"
+            },
+            {
+              "name": "Analysability characteristic",
+              "value": 3.6666666666666665,
+              "description": "The degree to which The ontology can be diagnosed for deficiencies or causes of failures (inconsistences), or for the parts to be modified to be identified.",
+              "subcharacteristics": [],
+              "iriname": "AnalysabilityCharacteristic"
+            },
+            {
+              "name": "Modularity characteristic",
+              "value": 4.0,
+              "description": "The degree to which the ontology is composed of discrete components such that a change to one component has minimal impact on other components.",
+              "subcharacteristics": [],
+              "iriname": "ModularityCharacteristic"
+            },
+            {
+              "name": "Reusability characteristic",
+              "value": 3.5,
+              "description": "The degree to which an asset (part of) the ontology can be used in more than one ontology, or in building other assets.",
+              "subcharacteristics": [],
+              "iriname": "ReusabilityCharacteristic"
+            },
+            {
+              "name": "Changeability characteristic",
+              "value": 3.4285714285714284,
+              "description": "The degree to which The Ontology enables a specified modification to be implemented. The ease with which a The ontology can be modified.",
+              "subcharacteristics": [],
+              "iriname": "ChangeabilityCharacteristic"
+            }
+          ],
+          "iriname": "MaintainabilityCharacteristic"
+        },
+        {
+          "name": "Operability characteristic",
+          "value": 2.258796296296296,
+          "description": "Effort needed for use, and on the individual assessment of such use, by a stated or implied set of users.",
+          "subcharacteristics": [
+            {
+              "name": "Helpfulness characteristic",
+              "value": 2.2,
+              "description": "The degree to which the Ontology provides help when users need assistance.",
+              "subcharacteristics": [],
+              "iriname": "HelpfulnessCharacteristic"
+            },
+            {
+              "name": "Appropriateness recognisability characteristic",
+              "value": NaN,
+              "description": "The degree to which the Ontology enables users to recognise whether it is appropriate for their needs.",
+              "subcharacteristics": [],
+              "iriname": "AppropriatenessRecognisabilityCharacteristic"
+            },
+            {
+              "name": "Ease of use characteristic",
+              "value": 1.8888888888888888,
+              "description": "The degree to which the ontology makes it easy for users to operate and control it.",
+              "subcharacteristics": [],
+              "iriname": "EaseOfUseCharacteristic"
+            },
+            {
+              "name": "Learnability characteristic",
+              "value": 2.6875,
+              "description": "The degree to which the ontology enables users to learn its application.",
+              "subcharacteristics": [],
+              "iriname": "LearnabilityCharacteristic"
+            }
+          ],
+          "iriname": "OperabilityCharacteristic"
+        },
+        {
+          "name": "Reliability characteristic",
+          "value": 3.375,
+          "description": "Capability of an ontology to maintain its level of performance under stated conditions for a given period of time.",
+          "subcharacteristics": [
+            {
+              "name": "Recoverability characteristic",
+              "value": 1.75,
+              "description": "The degree to which the ontology can reestablish a specified level of performance and recover the data directly affected in the case of a failure.",
+              "subcharacteristics": [],
+              "iriname": "RecoverabilityCharacteristic"
+            },
+            {
+              "name": "Availability characteristic",
+              "value": 5.0,
+              "description": "The degree to which an ontology, or part of it, is operational and available when required for use with different applications.",
+              "subcharacteristics": [],
+              "iriname": "AvailabilityCharacteristic"
+            }
+          ],
+          "iriname": "ReliabilityCharacteristic"
+        },
+        {
+          "name": "Quality in use characteristic",
+          "value": 1.8888888888888888,
+          "description": "Quality in a particular context of use. Quality in use is the degree to which a product used by specific users meets their needs to achieve specific goals.",
+          "subcharacteristics": [
+            {
+              "name": "Usability in use characteristic",
+              "value": 1.8888888888888888,
+              "description": "",
+              "subcharacteristics": [
+                {
+                  "name": "Satisfaction in use characteristic",
+                  "value": NaN,
+                  "description": "The degree to which users are satisfied in a especified context of use.",
+                  "subcharacteristics": [
+                    {
+                      "name": "Emotional satisfaction characteristic",
+                      "value": NaN,
+                      "description": "Emotional satisfaction",
+                      "subcharacteristics": [],
+                      "iriname": "EmotionalSatisfactionCharacteristic"
+                    },
+                    {
+                      "name": "Physical satisfaction characteristic",
+                      "value": NaN,
+                      "description": "Physical satisfaction",
+                      "subcharacteristics": [],
+                      "iriname": "PhysicalSatisfactionCharacteristic"
+                    },
+                    {
+                      "name": "Cognitive satisfaction characteristic",
+                      "value": NaN,
+                      "description": "Cognitive satisfaction",
+                      "subcharacteristics": [],
+                      "iriname": "CognitiveSatisfactionCharacteristic"
+                    }
+                  ],
+                  "iriname": "SatisfactionInUseCharacteristic"
+                },
+                {
+                  "name": "Effectiveness in use characteristic",
+                  "value": NaN,
+                  "description": "The degree to which specified users can achieve specified goals with accuracy and completeness in a specified context of use.",
+                  "subcharacteristics": [],
+                  "iriname": "EffectivenessInUseCharacteristic"
+                },
+                {
+                  "name": "Efficiency in use characteristic",
+                  "value": 1.8888888888888888,
+                  "description": "The degree to which specified users expend appropriate amounts of resources in relation to the effectiveness achieved in a specified context of use.",
+                  "subcharacteristics": [],
+                  "iriname": "EfficiencyInUseCharacteristic"
+                }
+              ],
+              "iriname": "UsabilityInUseCharacteristic"
+            },
+            {
+              "name": "Flexibility in use characteristic",
+              "value": NaN,
+              "description": "",
+              "subcharacteristics": [
+                {
+                  "name": "Context conformity in use characteristic",
+                  "value": NaN,
+                  "description": "The degree to which usability in use meets requirements in all the intended contexts of use.",
+                  "subcharacteristics": [],
+                  "iriname": "ContextConformityInUseCharacteristic"
+                },
+                {
+                  "name": "Context extendibility in use characteristic",
+                  "value": NaN,
+                  "description": "The degree of usability in use in contexts beyond those initially intended.",
+                  "subcharacteristics": [],
+                  "iriname": "ContextExtendibilityInUseCharacteristic"
+                }
+              ],
+              "iriname": "FlexibilityInUseCharacteristic"
+            }
+          ],
+          "iriname": "QualityInUseCharacteristic"
+        },
+        {
+          "name": "Functional adequacy characteristic",
+          "value": 3.115495289024701,
+          "description": "The capability of the ontologies to provide concrete functions.",
+          "subcharacteristics": [
+            {
+              "name": "Decision trees characteristic",
+              "value": 3.0,
+              "description": "Capability of the ontology to be used building Decision trees.",
+              "subcharacteristics": [],
+              "iriname": "DecisionTreesCharacteristic"
+            },
+            {
+              "name": "Text analysis characteristic",
+              "value": 1.9090909090909092,
+              "description": "Capability of the structure of the ontology to helps detecting associations between words or concepts and classifying word types.",
+              "subcharacteristics": [],
+              "iriname": "TextAnalysisCharacteristic"
+            },
+            {
+              "name": "Controlled vocabulary characteristic",
+              "value": 2.3333333333333335,
+              "description": "Capability of the ontology to avoid heterogeneity of the terms.",
+              "subcharacteristics": [],
+              "iriname": "ControlledVocabularyCharacteristic"
+            },
+            {
+              "name": "Classifying instances characteristic",
+              "value": NaN,
+              "description": "Degree in which ontology Instances can be recognized as member of a certain class.",
+              "subcharacteristics": [],
+              "iriname": "ClassifyingInstancesCharacteristic"
+            },
+            {
+              "name": "Precision characteristic",
+              "value": NaN,
+              "description": "The degree to which The ontology provides the right or specified results with the needed degree of accuracy.",
+              "subcharacteristics": [],
+              "iriname": "PrecisionCharacteristic"
+            },
+            {
+              "name": "Knowledge acquisition representation characteristic",
+              "value": 2.6666666666666665,
+              "description": "Capability of the Ontology to represent the knowledge acquired.",
+              "subcharacteristics": [],
+              "iriname": "KnowledgeAcquisitionRepresentationCharacteristic"
+            },
+            {
+              "name": "Knowledge reuse characteristic",
+              "value": 2.4411764705882355,
+              "description": "The degree to which The ontology knowledge can be used to build other ontologies.",
+              "subcharacteristics": [],
+              "iriname": "KnowledgeReuseCharacteristic"
+            },
+            {
+              "name": "Results representation characteristic",
+              "value": 3.0,
+              "description": "Capability of the ontology to analize complex results such as microarrays experiments.",
+              "subcharacteristics": [],
+              "iriname": "ResultsRepresentationCharacteristic"
+            },
+            {
+              "name": "Clustering characteristic",
+              "value": 5.0,
+              "description": "Degree in which the annotations of data with respect to ontology terms can be used for clustering such data against the aspects of the ontology.",
+              "subcharacteristics": [],
+              "iriname": "ClusteringCharacteristic"
+            },
+            {
+              "name": "Schema and value reconciliation characteristic",
+              "value": 3.6666666666666665,
+              "description": "Degree in which ontology provide a common data model that can be applied to reconciliation and integration.",
+              "subcharacteristics": [],
+              "iriname": "SchemaAndValueReconciliationCharacteristic"
+            },
+            {
+              "name": "Similarity characteristic",
+              "value": 3.0,
+              "description": "Capability of the component of the ontology to be compared for similarity.",
+              "subcharacteristics": [],
+              "iriname": "SimilarityCharacteristic"
+            },
+            {
+              "name": "Reference ontology characteristic",
+              "value": 3.0,
+              "description": "Degree in which the ontology can be used as a reference resource for the particular domain the ontology is built for.",
+              "subcharacteristics": [],
+              "iriname": "ReferenceOntologyCharacteristic"
+            },
+            {
+              "name": "Inference characteristic",
+              "value": 2.3333333333333335,
+              "description": "The degree to which The formal model of the ontology can be used by reasoners to make implicit knowledge explicit.",
+              "subcharacteristics": [],
+              "iriname": "InferenceCharacteristic"
+            },
+            {
+              "name": "Indexing and linking characteristic",
+              "value": 2.066666666666667,
+              "description": "Degree in which the classes defined in the ontology can act as indexes for quick information retrieval.",
+              "subcharacteristics": [],
+              "iriname": "IndexingAndLinkingCharacteristic"
+            },
+            {
+              "name": "Consistent search and query characteristic",
+              "value": 4.2,
+              "description": "The degree which the formal model and structure of the ontology provide a semantic context to evaluate which are the data wanted by the users, allowing better querying and searching methods.",
+              "subcharacteristics": [],
+              "iriname": "ConsistentSearchAndQueryCharacteristic"
+            },
+            {
+              "name": "Guidance characteristic",
+              "value": 5.0,
+              "description": "Capability of the ontology to guide the specification of domain theories.",
+              "subcharacteristics": [],
+              "iriname": "GuidanceCharacteristic"
+            }
+          ],
+          "iriname": "FunctionalAdequacyCharacteristic"
+        },
+        {
+          "name": "Compatibility characteristic",
+          "value": 3.5,
+          "description": "The ability of two or more software components to exchange information and/or to perform their required functions while sharing the same hardware or software environment.",
+          "subcharacteristics": [
+            {
+              "name": "Interoperability characteristic",
+              "value": NaN,
+              "description": "The degree to which the ontology can be cooperatively operable combining its knowledge with one or more other ontologies.",
+              "subcharacteristics": [],
+              "iriname": "InteroperabilityCharacteristic"
+            },
+            {
+              "name": "Replaceability characteristic",
+              "value": 3.5,
+              "description": "The degree to which The ontology can be used in place of another specified Ontology for the same purpose in the same environment.",
+              "subcharacteristics": [],
+              "iriname": "ReplaceabilityCharacteristic"
+            }
+          ],
+          "iriname": "CompatibilityCharacteristic"
+        },
+        {
+          "name": "Transferability characteristic",
+          "value": 3.75,
+          "description": "The degree to which the software product can be transferred from one environment to another.",
+          "subcharacteristics": [
+            {
+              "name": "Portability characteristic",
+              "value": NaN,
+              "description": "The degree in which an Ontology or one part of the ontology can be transferred from one hardware or software environment to another.",
+              "subcharacteristics": [],
+              "iriname": "PortabilityCharacteristic"
+            },
+            {
+              "name": "Adaptability characteristic",
+              "value": 3.75,
+              "description": "The degree to which The ontology can be adapted for different specified environments (languages, expresivity levels) without applying actions or means other than those provided for this purpose for the Ontology considered.",
+              "subcharacteristics": [],
+              "iriname": "AdaptabilityCharacteristic"
+            }
+          ],
+          "iriname": "TransferabilityCharacteristic"
+        }
+      ],
+      "classMetrics": []
+    },
+    "characteristics": [
+      {
+        "name": "Structural characteristic",
+        "value": 3.4285714285714284,
+        "description": "The structural characteristic accounts for ontology quality factors such as consistency, formalisation, redundancy or tangledness.",
+        "subcharacteristics": [
+          {
+            "name": "Cohesion characteristic",
+            "value": 5.0,
+            "description": "An ontology has a high cohesion if the classes are strongly related.",
+            "subcharacteristics": [],
+            "iriname": "CohesionCharacteristic"
+          },
+          {
+            "name": "Redundancy characteristic",
+            "value": 5.0,
+            "description": "Capability of the ontology to be informative",
+            "subcharacteristics": [],
+            "iriname": "RedundancyCharacteristic"
+          },
+          {
+            "name": "Formal relation support characteristic",
+            "value": 1.0,
+            "description": "Capability of the ontology to represent relations supported for formal theories different to the formal support for taxonomy.",
+            "subcharacteristics": [],
+            "iriname": "FormalRelationSupportCharacteristic"
+          },
+          {
+            "name": "Structural accuracy characteristic",
+            "value": 2.0,
+            "description": "Degree of the correctness of the terms used in the ontology.",
+            "subcharacteristics": [],
+            "iriname": "StructuralAccuracyCharacteristic"
+          },
+          {
+            "name": "Tangledness characteristic",
+            "value": 1.0,
+            "description": "This measures the distribution of multiple parent categories, so that it is related to the existence of multiple inheritance.",
+            "subcharacteristics": [],
+            "iriname": "TanglednessCharacteristic"
+          },
+          {
+            "name": "Formalisation characteristic",
+            "value": 5.0,
+            "description": "Capability of the ontology to support reasoning",
+            "subcharacteristics": [],
+            "iriname": "FormalisationCharacteristic"
+          },
+          {
+            "name": "Consistency characteristic",
+            "value": 5.0,
+            "description": "Degree of the consistency of the ontology.",
+            "subcharacteristics": [],
+            "iriname": "ConsistencyCharacteristic"
+          },
+          {
+            "name": "Cycles characteristic",
+            "value": NaN,
+            "description": "The existence of cycles through a particular semantic relation is usually a sign of bad design, since they may lead to inconsistencies.",
+            "subcharacteristics": [],
+            "iriname": "CyclesCharacteristic"
+          },
+          {
+            "name": "Domain coverage characteristic",
+            "value": NaN,
+            "description": "The degree to which The ontology cover the specified domain",
+            "subcharacteristics": [],
+            "iriname": "DomainCoverageCharacteristic"
+          }
+        ],
+        "iriname": "StructuralCharacteristic"
+      },
+      {
+        "name": "Maintainability characteristic",
+        "value": 3.4658730158730156,
+        "description": "The capability of ontologies to be modified for changes in environments, in requirements or in functional specifications.",
+        "subcharacteristics": [
+          {
+            "name": "Modification stability characteristic",
+            "value": 2.8,
+            "description": "The degree to which The ontology can avoid unexpected effects from modifications of the software or knowledge.",
+            "subcharacteristics": [],
+            "iriname": "ModificationStabilityCharacteristic"
+          },
+          {
+            "name": "Testability characteristic",
+            "value": 3.4,
+            "description": "The degree to which the ontology modified can be validated.",
+            "subcharacteristics": [],
+            "iriname": "TestabilityCharacteristic"
+          },
+          {
+            "name": "Analysability characteristic",
+            "value": 3.6666666666666665,
+            "description": "The degree to which The ontology can be diagnosed for deficiencies or causes of failures (inconsistences), or for the parts to be modified to be identified.",
+            "subcharacteristics": [],
+            "iriname": "AnalysabilityCharacteristic"
+          },
+          {
+            "name": "Modularity characteristic",
+            "value": 4.0,
+            "description": "The degree to which the ontology is composed of discrete components such that a change to one component has minimal impact on other components.",
+            "subcharacteristics": [],
+            "iriname": "ModularityCharacteristic"
+          },
+          {
+            "name": "Reusability characteristic",
+            "value": 3.5,
+            "description": "The degree to which an asset (part of) the ontology can be used in more than one ontology, or in building other assets.",
+            "subcharacteristics": [],
+            "iriname": "ReusabilityCharacteristic"
+          },
+          {
+            "name": "Changeability characteristic",
+            "value": 3.4285714285714284,
+            "description": "The degree to which The Ontology enables a specified modification to be implemented. The ease with which a The ontology can be modified.",
+            "subcharacteristics": [],
+            "iriname": "ChangeabilityCharacteristic"
+          }
+        ],
+        "iriname": "MaintainabilityCharacteristic"
+      },
+      {
+        "name": "Operability characteristic",
+        "value": 2.258796296296296,
+        "description": "Effort needed for use, and on the individual assessment of such use, by a stated or implied set of users.",
+        "subcharacteristics": [
+          {
+            "name": "Helpfulness characteristic",
+            "value": 2.2,
+            "description": "The degree to which the Ontology provides help when users need assistance.",
+            "subcharacteristics": [],
+            "iriname": "HelpfulnessCharacteristic"
+          },
+          {
+            "name": "Appropriateness recognisability characteristic",
+            "value": NaN,
+            "description": "The degree to which the Ontology enables users to recognise whether it is appropriate for their needs.",
+            "subcharacteristics": [],
+            "iriname": "AppropriatenessRecognisabilityCharacteristic"
+          },
+          {
+            "name": "Ease of use characteristic",
+            "value": 1.8888888888888888,
+            "description": "The degree to which the ontology makes it easy for users to operate and control it.",
+            "subcharacteristics": [],
+            "iriname": "EaseOfUseCharacteristic"
+          },
+          {
+            "name": "Learnability characteristic",
+            "value": 2.6875,
+            "description": "The degree to which the ontology enables users to learn its application.",
+            "subcharacteristics": [],
+            "iriname": "LearnabilityCharacteristic"
+          }
+        ],
+        "iriname": "OperabilityCharacteristic"
+      },
+      {
+        "name": "Reliability characteristic",
+        "value": 3.375,
+        "description": "Capability of an ontology to maintain its level of performance under stated conditions for a given period of time.",
+        "subcharacteristics": [
+          {
+            "name": "Recoverability characteristic",
+            "value": 1.75,
+            "description": "The degree to which the ontology can reestablish a specified level of performance and recover the data directly affected in the case of a failure.",
+            "subcharacteristics": [],
+            "iriname": "RecoverabilityCharacteristic"
+          },
+          {
+            "name": "Availability characteristic",
+            "value": 5.0,
+            "description": "The degree to which an ontology, or part of it, is operational and available when required for use with different applications.",
+            "subcharacteristics": [],
+            "iriname": "AvailabilityCharacteristic"
+          }
+        ],
+        "iriname": "ReliabilityCharacteristic"
+      },
+      {
+        "name": "Quality in use characteristic",
+        "value": 1.8888888888888888,
+        "description": "Quality in a particular context of use. Quality in use is the degree to which a product used by specific users meets their needs to achieve specific goals.",
+        "subcharacteristics": [
+          {
+            "name": "Usability in use characteristic",
+            "value": 1.8888888888888888,
+            "description": "",
+            "subcharacteristics": [
+              {
+                "name": "Satisfaction in use characteristic",
+                "value": NaN,
+                "description": "The degree to which users are satisfied in a especified context of use.",
+                "subcharacteristics": [
+                  {
+                    "name": "Emotional satisfaction characteristic",
+                    "value": NaN,
+                    "description": "Emotional satisfaction",
+                    "subcharacteristics": [],
+                    "iriname": "EmotionalSatisfactionCharacteristic"
+                  },
+                  {
+                    "name": "Physical satisfaction characteristic",
+                    "value": NaN,
+                    "description": "Physical satisfaction",
+                    "subcharacteristics": [],
+                    "iriname": "PhysicalSatisfactionCharacteristic"
+                  },
+                  {
+                    "name": "Cognitive satisfaction characteristic",
+                    "value": NaN,
+                    "description": "Cognitive satisfaction",
+                    "subcharacteristics": [],
+                    "iriname": "CognitiveSatisfactionCharacteristic"
+                  }
+                ],
+                "iriname": "SatisfactionInUseCharacteristic"
+              },
+              {
+                "name": "Effectiveness in use characteristic",
+                "value": NaN,
+                "description": "The degree to which specified users can achieve specified goals with accuracy and completeness in a specified context of use.",
+                "subcharacteristics": [],
+                "iriname": "EffectivenessInUseCharacteristic"
+              },
+              {
+                "name": "Efficiency in use characteristic",
+                "value": 1.8888888888888888,
+                "description": "The degree to which specified users expend appropriate amounts of resources in relation to the effectiveness achieved in a specified context of use.",
+                "subcharacteristics": [],
+                "iriname": "EfficiencyInUseCharacteristic"
+              }
+            ],
+            "iriname": "UsabilityInUseCharacteristic"
+          },
+          {
+            "name": "Flexibility in use characteristic",
+            "value": NaN,
+            "description": "",
+            "subcharacteristics": [
+              {
+                "name": "Context conformity in use characteristic",
+                "value": NaN,
+                "description": "The degree to which usability in use meets requirements in all the intended contexts of use.",
+                "subcharacteristics": [],
+                "iriname": "ContextConformityInUseCharacteristic"
+              },
+              {
+                "name": "Context extendibility in use characteristic",
+                "value": NaN,
+                "description": "The degree of usability in use in contexts beyond those initially intended.",
+                "subcharacteristics": [],
+                "iriname": "ContextExtendibilityInUseCharacteristic"
+              }
+            ],
+            "iriname": "FlexibilityInUseCharacteristic"
+          }
+        ],
+        "iriname": "QualityInUseCharacteristic"
+      },
+      {
+        "name": "Functional adequacy characteristic",
+        "value": 3.115495289024701,
+        "description": "The capability of the ontologies to provide concrete functions.",
+        "subcharacteristics": [
+          {
+            "name": "Decision trees characteristic",
+            "value": 3.0,
+            "description": "Capability of the ontology to be used building Decision trees.",
+            "subcharacteristics": [],
+            "iriname": "DecisionTreesCharacteristic"
+          },
+          {
+            "name": "Text analysis characteristic",
+            "value": 1.9090909090909092,
+            "description": "Capability of the structure of the ontology to helps detecting associations between words or concepts and classifying word types.",
+            "subcharacteristics": [],
+            "iriname": "TextAnalysisCharacteristic"
+          },
+          {
+            "name": "Controlled vocabulary characteristic",
+            "value": 2.3333333333333335,
+            "description": "Capability of the ontology to avoid heterogeneity of the terms.",
+            "subcharacteristics": [],
+            "iriname": "ControlledVocabularyCharacteristic"
+          },
+          {
+            "name": "Classifying instances characteristic",
+            "value": NaN,
+            "description": "Degree in which ontology Instances can be recognized as member of a certain class.",
+            "subcharacteristics": [],
+            "iriname": "ClassifyingInstancesCharacteristic"
+          },
+          {
+            "name": "Precision characteristic",
+            "value": NaN,
+            "description": "The degree to which The ontology provides the right or specified results with the needed degree of accuracy.",
+            "subcharacteristics": [],
+            "iriname": "PrecisionCharacteristic"
+          },
+          {
+            "name": "Knowledge acquisition representation characteristic",
+            "value": 2.6666666666666665,
+            "description": "Capability of the Ontology to represent the knowledge acquired.",
+            "subcharacteristics": [],
+            "iriname": "KnowledgeAcquisitionRepresentationCharacteristic"
+          },
+          {
+            "name": "Knowledge reuse characteristic",
+            "value": 2.4411764705882355,
+            "description": "The degree to which The ontology knowledge can be used to build other ontologies.",
+            "subcharacteristics": [],
+            "iriname": "KnowledgeReuseCharacteristic"
+          },
+          {
+            "name": "Results representation characteristic",
+            "value": 3.0,
+            "description": "Capability of the ontology to analize complex results such as microarrays experiments.",
+            "subcharacteristics": [],
+            "iriname": "ResultsRepresentationCharacteristic"
+          },
+          {
+            "name": "Clustering characteristic",
+            "value": 5.0,
+            "description": "Degree in which the annotations of data with respect to ontology terms can be used for clustering such data against the aspects of the ontology.",
+            "subcharacteristics": [],
+            "iriname": "ClusteringCharacteristic"
+          },
+          {
+            "name": "Schema and value reconciliation characteristic",
+            "value": 3.6666666666666665,
+            "description": "Degree in which ontology provide a common data model that can be applied to reconciliation and integration.",
+            "subcharacteristics": [],
+            "iriname": "SchemaAndValueReconciliationCharacteristic"
+          },
+          {
+            "name": "Similarity characteristic",
+            "value": 3.0,
+            "description": "Capability of the component of the ontology to be compared for similarity.",
+            "subcharacteristics": [],
+            "iriname": "SimilarityCharacteristic"
+          },
+          {
+            "name": "Reference ontology characteristic",
+            "value": 3.0,
+            "description": "Degree in which the ontology can be used as a reference resource for the particular domain the ontology is built for.",
+            "subcharacteristics": [],
+            "iriname": "ReferenceOntologyCharacteristic"
+          },
+          {
+            "name": "Inference characteristic",
+            "value": 2.3333333333333335,
+            "description": "The degree to which The formal model of the ontology can be used by reasoners to make implicit knowledge explicit.",
+            "subcharacteristics": [],
+            "iriname": "InferenceCharacteristic"
+          },
+          {
+            "name": "Indexing and linking characteristic",
+            "value": 2.066666666666667,
+            "description": "Degree in which the classes defined in the ontology can act as indexes for quick information retrieval.",
+            "subcharacteristics": [],
+            "iriname": "IndexingAndLinkingCharacteristic"
+          },
+          {
+            "name": "Consistent search and query characteristic",
+            "value": 4.2,
+            "description": "The degree which the formal model and structure of the ontology provide a semantic context to evaluate which are the data wanted by the users, allowing better querying and searching methods.",
+            "subcharacteristics": [],
+            "iriname": "ConsistentSearchAndQueryCharacteristic"
+          },
+          {
+            "name": "Guidance characteristic",
+            "value": 5.0,
+            "description": "Capability of the ontology to guide the specification of domain theories.",
+            "subcharacteristics": [],
+            "iriname": "GuidanceCharacteristic"
+          }
+        ],
+        "iriname": "FunctionalAdequacyCharacteristic"
+      },
+      {
+        "name": "Compatibility characteristic",
+        "value": 3.5,
+        "description": "The ability of two or more software components to exchange information and/or to perform their required functions while sharing the same hardware or software environment.",
+        "subcharacteristics": [
+          {
+            "name": "Interoperability characteristic",
+            "value": NaN,
+            "description": "The degree to which the ontology can be cooperatively operable combining its knowledge with one or more other ontologies.",
+            "subcharacteristics": [],
+            "iriname": "InteroperabilityCharacteristic"
+          },
+          {
+            "name": "Replaceability characteristic",
+            "value": 3.5,
+            "description": "The degree to which The ontology can be used in place of another specified Ontology for the same purpose in the same environment.",
+            "subcharacteristics": [],
+            "iriname": "ReplaceabilityCharacteristic"
+          }
+        ],
+        "iriname": "CompatibilityCharacteristic"
+      },
+      {
+        "name": "Transferability characteristic",
+        "value": 3.75,
+        "description": "The degree to which the software product can be transferred from one environment to another.",
+        "subcharacteristics": [
+          {
+            "name": "Portability characteristic",
+            "value": NaN,
+            "description": "The degree in which an Ontology or one part of the ontology can be transferred from one hardware or software environment to another.",
+            "subcharacteristics": [],
+            "iriname": "PortabilityCharacteristic"
+          },
+          {
+            "name": "Adaptability characteristic",
+            "value": 3.75,
+            "description": "The degree to which The ontology can be adapted for different specified environments (languages, expresivity levels) without applying actions or means other than those provided for this purpose for the Ontology considered.",
+            "subcharacteristics": [],
+            "iriname": "AdaptabilityCharacteristic"
+          }
+        ],
+        "iriname": "TransferabilityCharacteristic"
+      }
+    ]
+  },
+  "issues": {
+    "issues": {
+      "typeDistribution": {
+        "AnnotationPropertyWithNoDescriptionIssue": 10,
+        "AnnotationPropertyWithNoNameIssue": 10,
+        "AnnotationPropertyWithNoSynonymsIssue": 10,
+        "ObjectPropertyWithNoSynonymsIssue": 7,
+        "ClassWithNoSynonymsIssue": 8,
+        "DataPropertyWithNoSynonymsIssue": 10
+      },
+      "issues": [
+        {
+          "id": "69ea41de7a2911592267b074",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#CallingMethod",
+          "hostAssetLabel": "calling method",
+          "title": "ClassWithNoSynonymsIssue",
+          "message": "The class <http://example.com/tad-observation-ontology#CallingMethod> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "ClassWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The class does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b092",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#CellType",
+          "hostAssetLabel": "cell type",
+          "title": "ClassWithNoSynonymsIssue",
+          "message": "The class <http://example.com/tad-observation-ontology#CellType> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "ClassWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The class does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b079",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#Resolution",
+          "hostAssetLabel": "resolution",
+          "title": "ClassWithNoSynonymsIssue",
+          "message": "The class <http://example.com/tad-observation-ontology#Resolution> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "ClassWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The class does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b075",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#SourceFile",
+          "hostAssetLabel": "source file",
+          "title": "ClassWithNoSynonymsIssue",
+          "message": "The class <http://example.com/tad-observation-ontology#SourceFile> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "ClassWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The class does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b09e",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#SourceMethod",
+          "hostAssetLabel": "source method",
+          "title": "ClassWithNoSynonymsIssue",
+          "message": "The class <http://example.com/tad-observation-ontology#SourceMethod> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "ClassWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The class does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b08e",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#calledBy",
+          "hostAssetLabel": "called by",
+          "title": "ObjectPropertyWithNoSynonymsIssue",
+          "message": "The object property <http://example.com/tad-observation-ontology#calledBy> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "ObjectPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The object property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b0a5",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#callingMethodValue",
+          "hostAssetLabel": "calling method value",
+          "title": "DataPropertyWithNoSynonymsIssue",
+          "message": "The data property <http://example.com/tad-observation-ontology#callingMethodValue> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "DataPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The data property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b093",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#cellTypeValue",
+          "hostAssetLabel": "cell type value",
+          "title": "DataPropertyWithNoSynonymsIssue",
+          "message": "The data property <http://example.com/tad-observation-ontology#cellTypeValue> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "DataPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The data property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b083",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#chromosome",
+          "hostAssetLabel": "chromosome",
+          "title": "DataPropertyWithNoSynonymsIssue",
+          "message": "The data property <http://example.com/tad-observation-ontology#chromosome> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "DataPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The data property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b088",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#databaseName",
+          "hostAssetLabel": "database name",
+          "title": "DataPropertyWithNoSynonymsIssue",
+          "message": "The data property <http://example.com/tad-observation-ontology#databaseName> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "DataPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The data property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b08b",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#derivedFrom",
+          "hostAssetLabel": "derived from",
+          "title": "ObjectPropertyWithNoSynonymsIssue",
+          "message": "The object property <http://example.com/tad-observation-ontology#derivedFrom> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "ObjectPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The object property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b082",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#endPosition",
+          "hostAssetLabel": "end position",
+          "title": "DataPropertyWithNoSynonymsIssue",
+          "message": "The data property <http://example.com/tad-observation-ontology#endPosition> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "DataPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The data property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b089",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#identifiedIn",
+          "hostAssetLabel": "identified in",
+          "title": "ObjectPropertyWithNoSynonymsIssue",
+          "message": "The object property <http://example.com/tad-observation-ontology#identifiedIn> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "ObjectPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The object property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b07a",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#measuredAt",
+          "hostAssetLabel": "measured at",
+          "title": "ObjectPropertyWithNoSynonymsIssue",
+          "message": "The object property <http://example.com/tad-observation-ontology#measuredAt> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "ObjectPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The object property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b07f",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#observedAs",
+          "hostAssetLabel": "observed as",
+          "title": "ObjectPropertyWithNoSynonymsIssue",
+          "message": "The object property <http://example.com/tad-observation-ontology#observedAs> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "ObjectPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The object property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b08c",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#recordedIn",
+          "hostAssetLabel": "recorded in",
+          "title": "ObjectPropertyWithNoSynonymsIssue",
+          "message": "The object property <http://example.com/tad-observation-ontology#recordedIn> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "ObjectPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The object property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b086",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#resolutionValue",
+          "hostAssetLabel": "resolution value",
+          "title": "DataPropertyWithNoSynonymsIssue",
+          "message": "The data property <http://example.com/tad-observation-ontology#resolutionValue> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "DataPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The data property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b08a",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#sourceFileValue",
+          "hostAssetLabel": "source file value",
+          "title": "DataPropertyWithNoSynonymsIssue",
+          "message": "The data property <http://example.com/tad-observation-ontology#sourceFileValue> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "DataPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The data property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b0a2",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#sourceMethodValue",
+          "hostAssetLabel": "source method value",
+          "title": "DataPropertyWithNoSynonymsIssue",
+          "message": "The data property <http://example.com/tad-observation-ontology#sourceMethodValue> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "DataPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The data property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b07e",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#startPosition",
+          "hostAssetLabel": "start position",
+          "title": "DataPropertyWithNoSynonymsIssue",
+          "message": "The data property <http://example.com/tad-observation-ontology#startPosition> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "DataPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The data property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b077",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#storedIn",
+          "hostAssetLabel": "stored in",
+          "title": "ObjectPropertyWithNoSynonymsIssue",
+          "message": "The object property <http://example.com/tad-observation-ontology#storedIn> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "ObjectPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The object property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b085",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://example.com/tad-observation-ontology#tadId",
+          "hostAssetLabel": "tad id",
+          "title": "DataPropertyWithNoSynonymsIssue",
+          "message": "The data property <http://example.com/tad-observation-ontology#tadId> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "DataPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The data property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b081",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.obolibrary.org/obo/NCIT_C15426",
+          "hostAssetLabel": "database",
+          "title": "ClassWithNoSynonymsIssue",
+          "message": "The class <http://purl.obolibrary.org/obo/NCIT_C15426> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "ClassWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The class does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b0a3",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.obolibrary.org/obo/SO_0002304",
+          "hostAssetLabel": "tad",
+          "title": "ClassWithNoSynonymsIssue",
+          "message": "The class <http://purl.obolibrary.org/obo/SO_0002304> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "ClassWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The class does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b078",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/dc/elements/1.1/creator",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoSynonymsIssue",
+          "message": "The annotation property <http://purl.org/dc/elements/1.1/creator> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b08f",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/dc/elements/1.1/creator",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoDescriptionIssue",
+          "message": "The annotation property <http://purl.org/dc/elements/1.1/creator> does not have any description.",
+          "recommendation": "Each element in the ontology should have one description. Descriptions are more informative than a simple name, being possible that a name could lead to misunderstandings due to polysemy.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoDescriptionMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any description."
+        },
+        {
+          "id": "69ea41de7a2911592267b090",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/dc/elements/1.1/creator",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoNameIssue",
+          "message": "The annotation property <http://purl.org/dc/elements/1.1/creator> does not have any name.",
+          "recommendation": "Each element in the ontology (i.e. classes and properties) is expected to have one standardized canonical name consisting in a comprehensive textual representation easy to understand by users from multiple backgrounds.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoNameMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any name."
+        },
+        {
+          "id": "69ea41de7a2911592267b07c",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/dc/elements/1.1/title",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoDescriptionIssue",
+          "message": "The annotation property <http://purl.org/dc/elements/1.1/title> does not have any description.",
+          "recommendation": "Each element in the ontology should have one description. Descriptions are more informative than a simple name, being possible that a name could lead to misunderstandings due to polysemy.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoDescriptionMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any description."
+        },
+        {
+          "id": "69ea41de7a2911592267b097",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/dc/elements/1.1/title",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoSynonymsIssue",
+          "message": "The annotation property <http://purl.org/dc/elements/1.1/title> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b0a0",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/dc/elements/1.1/title",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoNameIssue",
+          "message": "The annotation property <http://purl.org/dc/elements/1.1/title> does not have any name.",
+          "recommendation": "Each element in the ontology (i.e. classes and properties) is expected to have one standardized canonical name consisting in a comprehensive textual representation easy to understand by users from multiple backgrounds.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoNameMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any name."
+        },
+        {
+          "id": "69ea41de7a2911592267b06f",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/dc/terms/created",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoNameIssue",
+          "message": "The annotation property <http://purl.org/dc/terms/created> does not have any name.",
+          "recommendation": "Each element in the ontology (i.e. classes and properties) is expected to have one standardized canonical name consisting in a comprehensive textual representation easy to understand by users from multiple backgrounds.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoNameMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any name."
+        },
+        {
+          "id": "69ea41de7a2911592267b071",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/dc/terms/created",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoDescriptionIssue",
+          "message": "The annotation property <http://purl.org/dc/terms/created> does not have any description.",
+          "recommendation": "Each element in the ontology should have one description. Descriptions are more informative than a simple name, being possible that a name could lead to misunderstandings due to polysemy.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoDescriptionMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any description."
+        },
+        {
+          "id": "69ea41de7a2911592267b08d",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/dc/terms/created",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoSynonymsIssue",
+          "message": "The annotation property <http://purl.org/dc/terms/created> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b07d",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/dc/terms/description",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoNameIssue",
+          "message": "The annotation property <http://purl.org/dc/terms/description> does not have any name.",
+          "recommendation": "Each element in the ontology (i.e. classes and properties) is expected to have one standardized canonical name consisting in a comprehensive textual representation easy to understand by users from multiple backgrounds.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoNameMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any name."
+        },
+        {
+          "id": "69ea41de7a2911592267b096",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/dc/terms/description",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoDescriptionIssue",
+          "message": "The annotation property <http://purl.org/dc/terms/description> does not have any description.",
+          "recommendation": "Each element in the ontology should have one description. Descriptions are more informative than a simple name, being possible that a name could lead to misunderstandings due to polysemy.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoDescriptionMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any description."
+        },
+        {
+          "id": "69ea41de7a2911592267b09d",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/dc/terms/description",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoSynonymsIssue",
+          "message": "The annotation property <http://purl.org/dc/terms/description> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b080",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/dc/terms/issued",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoDescriptionIssue",
+          "message": "The annotation property <http://purl.org/dc/terms/issued> does not have any description.",
+          "recommendation": "Each element in the ontology should have one description. Descriptions are more informative than a simple name, being possible that a name could lead to misunderstandings due to polysemy.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoDescriptionMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any description."
+        },
+        {
+          "id": "69ea41de7a2911592267b084",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/dc/terms/issued",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoSynonymsIssue",
+          "message": "The annotation property <http://purl.org/dc/terms/issued> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b087",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/dc/terms/issued",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoNameIssue",
+          "message": "The annotation property <http://purl.org/dc/terms/issued> does not have any name.",
+          "recommendation": "Each element in the ontology (i.e. classes and properties) is expected to have one standardized canonical name consisting in a comprehensive textual representation easy to understand by users from multiple backgrounds.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoNameMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any name."
+        },
+        {
+          "id": "69ea41de7a2911592267b072",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/vocab/vann/preferredNamespacePrefix",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoNameIssue",
+          "message": "The annotation property <http://purl.org/vocab/vann/preferredNamespacePrefix> does not have any name.",
+          "recommendation": "Each element in the ontology (i.e. classes and properties) is expected to have one standardized canonical name consisting in a comprehensive textual representation easy to understand by users from multiple backgrounds.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoNameMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any name."
+        },
+        {
+          "id": "69ea41de7a2911592267b07b",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/vocab/vann/preferredNamespacePrefix",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoSynonymsIssue",
+          "message": "The annotation property <http://purl.org/vocab/vann/preferredNamespacePrefix> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b09f",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/vocab/vann/preferredNamespacePrefix",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoDescriptionIssue",
+          "message": "The annotation property <http://purl.org/vocab/vann/preferredNamespacePrefix> does not have any description.",
+          "recommendation": "Each element in the ontology should have one description. Descriptions are more informative than a simple name, being possible that a name could lead to misunderstandings due to polysemy.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoDescriptionMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any description."
+        },
+        {
+          "id": "69ea41de7a2911592267b076",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/vocab/vann/preferredNamespaceUri",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoNameIssue",
+          "message": "The annotation property <http://purl.org/vocab/vann/preferredNamespaceUri> does not have any name.",
+          "recommendation": "Each element in the ontology (i.e. classes and properties) is expected to have one standardized canonical name consisting in a comprehensive textual representation easy to understand by users from multiple backgrounds.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoNameMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any name."
+        },
+        {
+          "id": "69ea41de7a2911592267b091",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/vocab/vann/preferredNamespaceUri",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoSynonymsIssue",
+          "message": "The annotation property <http://purl.org/vocab/vann/preferredNamespaceUri> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b095",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://purl.org/vocab/vann/preferredNamespaceUri",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoDescriptionIssue",
+          "message": "The annotation property <http://purl.org/vocab/vann/preferredNamespaceUri> does not have any description.",
+          "recommendation": "Each element in the ontology should have one description. Descriptions are more informative than a simple name, being possible that a name could lead to misunderstandings due to polysemy.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoDescriptionMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any description."
+        },
+        {
+          "id": "69ea41de7a2911592267b099",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://rdf.biogateway.eu/tad//tad_id",
+          "hostAssetLabel": "tad observation",
+          "title": "ClassWithNoSynonymsIssue",
+          "message": "The class <http://rdf.biogateway.eu/tad//tad_id> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "ClassWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The class does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b094",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://www.w3.org/2000/01/rdf-schema#label",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoNameIssue",
+          "message": "The annotation property <http://www.w3.org/2000/01/rdf-schema#label> does not have any name.",
+          "recommendation": "Each element in the ontology (i.e. classes and properties) is expected to have one standardized canonical name consisting in a comprehensive textual representation easy to understand by users from multiple backgrounds.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoNameMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any name."
+        },
+        {
+          "id": "69ea41de7a2911592267b09a",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://www.w3.org/2000/01/rdf-schema#label",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoDescriptionIssue",
+          "message": "The annotation property <http://www.w3.org/2000/01/rdf-schema#label> does not have any description.",
+          "recommendation": "Each element in the ontology should have one description. Descriptions are more informative than a simple name, being possible that a name could lead to misunderstandings due to polysemy.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoDescriptionMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any description."
+        },
+        {
+          "id": "69ea41de7a2911592267b0a1",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://www.w3.org/2000/01/rdf-schema#label",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoSynonymsIssue",
+          "message": "The annotation property <http://www.w3.org/2000/01/rdf-schema#label> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b070",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://www.w3.org/2002/07/owl#versionInfo",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoSynonymsIssue",
+          "message": "The annotation property <http://www.w3.org/2002/07/owl#versionInfo> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any synonym."
+        },
+        {
+          "id": "69ea41de7a2911592267b073",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://www.w3.org/2002/07/owl#versionInfo",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoNameIssue",
+          "message": "The annotation property <http://www.w3.org/2002/07/owl#versionInfo> does not have any name.",
+          "recommendation": "Each element in the ontology (i.e. classes and properties) is expected to have one standardized canonical name consisting in a comprehensive textual representation easy to understand by users from multiple backgrounds.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoNameMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any name."
+        },
+        {
+          "id": "69ea41de7a2911592267b098",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://www.w3.org/2002/07/owl#versionInfo",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoDescriptionIssue",
+          "message": "The annotation property <http://www.w3.org/2002/07/owl#versionInfo> does not have any description.",
+          "recommendation": "Each element in the ontology should have one description. Descriptions are more informative than a simple name, being possible that a name could lead to misunderstandings due to polysemy.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoDescriptionMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any description."
+        },
+        {
+          "id": "69ea41de7a2911592267b09b",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://www.w3.org/2004/02/skos/core#definition",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoDescriptionIssue",
+          "message": "The annotation property <http://www.w3.org/2004/02/skos/core#definition> does not have any description.",
+          "recommendation": "Each element in the ontology should have one description. Descriptions are more informative than a simple name, being possible that a name could lead to misunderstandings due to polysemy.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoDescriptionMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any description."
+        },
+        {
+          "id": "69ea41de7a2911592267b09c",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://www.w3.org/2004/02/skos/core#definition",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoNameIssue",
+          "message": "The annotation property <http://www.w3.org/2004/02/skos/core#definition> does not have any name.",
+          "recommendation": "Each element in the ontology (i.e. classes and properties) is expected to have one standardized canonical name consisting in a comprehensive textual representation easy to understand by users from multiple backgrounds.",
+          "severity": "MAJOR",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoNameMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any name."
+        },
+        {
+          "id": "69ea41de7a2911592267b0a4",
+          "ontology": "69ea41da7a2911592267b06e",
+          "project": null,
+          "hostAsset": "http://www.w3.org/2004/02/skos/core#definition",
+          "hostAssetLabel": "",
+          "title": "AnnotationPropertyWithNoSynonymsIssue",
+          "message": "The annotation property <http://www.w3.org/2004/02/skos/core#definition> does not have any synonym.",
+          "recommendation": "Each element in the ontology must be enriched with synonyms whenever possible. Synonyms are alternative names to the canonical one, which are widely accepted by the community and used in particular domains. This facilitates the understanding by human users from different backgrounds and improves the use of the ontology for NLP processes.",
+          "severity": "INFO",
+          "tags": {
+            "layer": "Class"
+          },
+          "metric": "AnnotationPropertyWithNoSynonymsMetric",
+          "causativeAsset": "",
+          "causativeAssetLabel": "",
+          "definition": "The annotation property does not have any synonym."
+        }
+      ]
+    }
+  },
+  "score": 3.0978281148317914,
+  "extra_values": {
+    "id": "69ea41da7a2911592267b06e",
+    "projectId": null,
+    "ontologyId": "69ea41da7a2911592267b06e",
+    "timestamp": "2026-04-23T15:59:26.726Z"
+  }
+}

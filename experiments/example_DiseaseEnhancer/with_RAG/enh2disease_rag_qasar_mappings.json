@@ -1,0 +1,32 @@
+{
+  "mapped_terms": {
+    "Gene": {
+      "type": "class",
+      "iri": "http://semanticscience.org/resource/SIO_010035",
+      "label": [
+        "Gene"
+      ],
+      "score": 1.0,
+      "ontology": "gene"
+    }
+  },
+  "mapped_relations": {},
+  "mapped_properties": {},
+  "ontology_ids": [
+    "gene2phen",
+    "gene",
+    "prot2prot",
+    "prot",
+    "tfac2gene",
+    "crm2gene",
+    "prot2mf",
+    "prot2cc",
+    "prot2bp",
+    "crm2tfac",
+    "tad",
+    "ortho",
+    "crm2phen",
+    "reg2targ",
+    "crm"
+  ]
+}
