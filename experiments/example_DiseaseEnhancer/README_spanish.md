@@ -4,8 +4,9 @@
 
 En este experimento se evaluó el comportamiento de **OntoNG** sobre un conjunto de datos reales procedente de **DiseaseEnhancer**, una base de datos curada manualmente de enhancers humanos asociados a enfermedad. Los **enhancers** son secuencias reguladoras no codificantes capaces de modular la transcripción de genes diana, a menudo mediante interacciones cromatínicas a distancia, por lo que su alteración puede contribuir a procesos patológicos. La publicación original de DiseaseEnhancer describe el recurso como una colección de enhancers asociados a enfermedad, genes diana, tipos de enfermedad y variantes asociadas; su versión inicial incluía **847 enhancers asociados a enfermedad en 143 enfermedades humanas**. ([academic.oup.com](https://academic.oup.com/nar/article/46/D1/D78/4559115?utm_source=chatgpt.com))
 
-**Base de datos / recurso original:**  
-`http://biocc.hrbmu.edu.cn/DiseaseEnhancer/RFunctions/enh2disease-1.0.2.txt`
+Para este experimento se utilizó el recurso:
+- `enh2disease-1.0.2.txt`
+- Enlace: `http://biocc.hrbmu.edu.cn/DiseaseEnhancer/RFunctions/enh2disease-1.0.2.txt`
 
 ## Preparación de los datos
 
