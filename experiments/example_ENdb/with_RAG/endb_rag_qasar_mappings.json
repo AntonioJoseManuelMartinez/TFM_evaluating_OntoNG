@@ -1,0 +1,50 @@
+{
+  "mapped_terms": {
+    "Gene": {
+      "type": "class",
+      "iri": "http://semanticscience.org/resource/SIO_010035",
+      "label": [
+        "Gene"
+      ],
+      "score": 1.0,
+      "ontology": "gene"
+    },
+    "TranscriptionFactor": {
+      "type": "class",
+      "iri": "http://purl.obolibrary.org/obo/NCIT_C17207",
+      "label": [
+        "Transcription Factor"
+      ],
+      "score": 1.0,
+      "ontology": "crm2tfac"
+    },
+    "RegulatoryAssociation": {
+      "type": "class",
+      "iri": "http://purl.obolibrary.org/obo/SO_0000727",
+      "label": [
+        "CRM"
+      ],
+      "score": 0.5563,
+      "ontology": "crm"
+    }
+  },
+  "mapped_relations": {},
+  "mapped_properties": {},
+  "ontology_ids": [
+    "gene2phen",
+    "crm2tfac",
+    "prot",
+    "crm2gene",
+    "gene",
+    "prot2prot",
+    "tfac2gene",
+    "prot2mf",
+    "prot2cc",
+    "prot2bp",
+    "ortho",
+    "tad",
+    "crm2phen",
+    "reg2targ",
+    "crm"
+  ]
+}

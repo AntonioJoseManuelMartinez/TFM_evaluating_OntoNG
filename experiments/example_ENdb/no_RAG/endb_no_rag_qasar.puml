@@ -1,0 +1,38 @@
+@startuml
+class Enhancer {
+  enhancerId : xsd:string (PK)
+  chromosome : xsd:string
+  startPosition : xsd:integer
+  endPosition : xsd:integer
+  enhancerType : xsd:string
+}
+
+class Gene {
+  targetGene : xsd:string (PK)
+}
+
+class Tissue {
+  tissueContext : xsd:string
+}
+
+class Disease {
+  diseaseName : xsd:string
+}
+
+class TranscriptionFactor {
+  transcriptionFactor : xsd:string
+}
+
+class RegulatoryFeature {
+  enhancerType (PK) (FK) : xsd:string
+  tissueContext (PK) (FK) : xsd:string
+  diseaseName (PK) (FK) : xsd:string
+  transcriptionFactor (PK) (FK) : xsd:string
+}
+
+Enhancer "0..*" --> "1" Gene : targets
+Enhancer "1" -- "0..*" RegulatoryFeature : characterizes
+Tissue "1" -- "0..*" RegulatoryFeature : occurs_in
+Disease "1" -- "0..*" RegulatoryFeature : associated_with
+TranscriptionFactor "1" -- "0..*" RegulatoryFeature : involves
+@enduml
