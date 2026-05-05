@@ -4,7 +4,7 @@
 
 En este experimento se evaluó el comportamiento de **OntoNG** sobre un dataset biomédico complejo procedente de **ENdb**, una base de datos curada manualmente de enhancers soportados experimentalmente en humano y ratón. 
 Los enhancers son elementos reguladores cis capaces de modular la transcripción génica mediante interacciones a distancia y están estrechamente relacionados con procesos biológicos y enfermedades. 
-ENdb integra información sobre enhancers, genes diana, factores de transcripción y enfermedades, proporcionando un recurso rico para el estudio de redes regulatorias. :contentReference[oaicite:0]{index=0}
+ENdb integra información sobre enhancers, genes diana, factores de transcripción y enfermedades, proporcionando un recurso rico para el estudio de redes regulatorias. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/31665430/))
 
 Para este experimento se utilizaron los siguientes ficheros del recurso:
 
