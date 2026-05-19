@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "status_code": 200,
+  "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=enhancer&ontology_ids=dpo&top_class_per_entity=1&score_threshold=0.5&context=True",
+  "params": {
+    "description_text": "enhancer",
+    "ontology_ids": "dpo",
+    "top_class_per_entity": 1,
+    "score_threshold": 0.5,
+    "context": true
+  },
+  "response": {
+    "is_plantuml": false,
+    "warnings": [],
+    "ontologies": [
+      {
+        "ontology_id": "dpo",
+        "mapping": {
+          "enhancer": [
+            {
+              "type": "class",
+              "score": 0.5277,
+              "matched_text": "increased quality",
+              "matched_field": "label",
+              "class": {
+                "iri": "http://purl.obolibrary.org/obo/PATO_0002300",
+                "label": [
+                  "increased quality"
+                ]
+              }
+            }
+          ]
+        },
+        "score_threshold": 0.5
+      }
+    ],
+    "context": [
+      {
+        "id": "http://purl.obolibrary.org/obo/PATO_0002300",
+        "type": "Class",
+        "label": [
+          "increased quality"
+        ],
+        "comment": "A quality that has a value that is increased compared to normal or average.",
+        "synonyms": [],
+        "superClasses": [
+          "deviation (from_normal)"
+        ],
+        "subClasses": [
+          "increased amount",
+          "increased process quality",
+          "increased object quality"
+        ],
+        "objectProperties": [],
+        "dataProperties": [],
+        "equivalentClasses": [],
+        "disjointWith": [],
+        "individuals": []
+      }
+    ]
+  }
+}

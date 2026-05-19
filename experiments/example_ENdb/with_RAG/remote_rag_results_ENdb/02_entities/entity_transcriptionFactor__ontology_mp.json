@@ -1,0 +1,51 @@
+{
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "mp",
+      "mapping": {
+        "transcriptionFactor": [
+          {
+            "type": "class",
+            "score": 0.8965,
+            "matched_text": "transcription factor binding",
+            "matched_field": "label",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/GO_0008134",
+              "label": [
+                "transcription factor binding"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/GO_0008134",
+      "type": "Class",
+      "label": [
+        "transcription factor binding"
+      ],
+      "comment": "Note that this term should not be used for direct annotation. Please consider one of the more specific descendants, GO:0140297 ; DNA-binding transcription factor binding, GO:0140296 ; general transcription initiation factor binding or GO:0001221 ; transcription coregulator binding.",
+      "synonyms": [
+        "transcription regulator binding",
+        "TF binding"
+      ],
+      "superClasses": [
+        "protein binding"
+      ],
+      "subClasses": [
+        "DNA-binding transcription factor binding"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}

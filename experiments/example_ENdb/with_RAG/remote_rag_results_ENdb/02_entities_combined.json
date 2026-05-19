@@ -1,0 +1,1646 @@
+{
+  "entity_disease__ontology_clo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=disease&ontology_ids=clo&top_class_per_entity=1&score_threshold=0.5&context=True",
+    "params": {
+      "description_text": "disease",
+      "ontology_ids": "clo",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "clo",
+          "mapping": {
+            "disease": [
+              {
+                "type": "class",
+                "score": 1.0,
+                "matched_text": "disease",
+                "matched_field": "label",
+                "class": {
+                  "iri": "http://purl.obolibrary.org/obo/DOID_4",
+                  "label": [
+                    "disease"
+                  ]
+                }
+              }
+            ]
+          },
+          "score_threshold": 0.5
+        }
+      ],
+      "context": [
+        {
+          "id": "http://purl.obolibrary.org/obo/DOID_4",
+          "type": "Class",
+          "label": [
+            "disease"
+          ],
+          "comment": "A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.",
+          "synonyms": [],
+          "superClasses": [
+            "disposition"
+          ],
+          "subClasses": [
+            "disease of cellular proliferation",
+            "cystic fibrosis",
+            "disease of anatomical entity"
+          ],
+          "objectProperties": [],
+          "dataProperties": [],
+          "equivalentClasses": [],
+          "disjointWith": [],
+          "individuals": []
+        }
+      ]
+    }
+  },
+  "entity_disease__ontology_dpo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=disease&ontology_ids=dpo&top_class_per_entity=1&score_threshold=0.5&context=True",
+    "params": {
+      "description_text": "disease",
+      "ontology_ids": "dpo",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "dpo",
+          "mapping": {
+            "disease": [
+              {
+                "type": "class",
+                "score": 0.5907,
+                "matched_text": "medicine",
+                "matched_field": "synonym",
+                "class": {
+                  "iri": "http://purl.obolibrary.org/obo/CHEBI_23888",
+                  "label": [
+                    "drug"
+                  ]
+                }
+              }
+            ]
+          },
+          "score_threshold": 0.5
+        }
+      ],
+      "context": [
+        {
+          "id": "http://purl.obolibrary.org/obo/CHEBI_23888",
+          "type": "Class",
+          "label": [
+            "drug"
+          ],
+          "comment": "Any substance which when absorbed into a living organism may modify one or more of its functions. The term is generally accepted for a substance taken for a therapeutic purpose, but is also commonly used for abused substances.",
+          "synonyms": [
+            "drugs",
+            "medicine"
+          ],
+          "superClasses": [
+            "pharmaceutical"
+          ],
+          "subClasses": [
+            "emetic",
+            "anti-inflammatory drug",
+            "cardiovascular drug",
+            "anaesthetic"
+          ],
+          "objectProperties": [],
+          "dataProperties": [],
+          "equivalentClasses": [],
+          "disjointWith": [],
+          "individuals": []
+        }
+      ]
+    }
+  },
+  "entity_disease__ontology_mp.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=disease&ontology_ids=mp&top_class_per_entity=1&score_threshold=0.5&context=True",
+    "params": {
+      "description_text": "disease",
+      "ontology_ids": "mp",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "mp",
+          "mapping": {
+            "disease": [
+              {
+                "type": "class",
+                "score": 0.7,
+                "matched_text": "This is a disease term.",
+                "matched_field": "comment",
+                "class": {
+                  "iri": "http://purl.obolibrary.org/obo/MP_0002536",
+                  "label": [
+                    "obsolete severe combined immunodeficiency disease"
+                  ]
+                }
+              }
+            ]
+          },
+          "score_threshold": 0.5
+        }
+      ],
+      "context": [
+        {
+          "id": "http://purl.obolibrary.org/obo/MP_0002536",
+          "type": "Class",
+          "label": [
+            "obsolete severe combined immunodeficiency disease"
+          ],
+          "comment": "This is a disease term.",
+          "synonyms": [
+            "SCID"
+          ],
+          "superClasses": [],
+          "subClasses": [],
+          "objectProperties": [],
+          "dataProperties": [],
+          "equivalentClasses": [],
+          "disjointWith": [],
+          "individuals": []
+        }
+      ]
+    }
+  },
+  "entity_disease__ontology_uberon.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=disease&ontology_ids=uberon&top_class_per_entity=1&score_threshold=0.5&context=True",
+    "params": {
+      "description_text": "disease",
+      "ontology_ids": "uberon",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "uberon",
+          "mapping": {
+            "disease": [
+              {
+                "type": "class",
+                "score": 0.5907,
+                "matched_text": "medicine",
+                "matched_field": "synonym",
+                "class": {
+                  "iri": "http://purl.obolibrary.org/obo/CHEBI_23888",
+                  "label": [
+                    "drug"
+                  ]
+                }
+              }
+            ]
+          },
+          "score_threshold": 0.5
+        }
+      ],
+      "context": [
+        {
+          "id": "http://purl.obolibrary.org/obo/CHEBI_23888",
+          "type": "Class",
+          "label": [
+            "drug"
+          ],
+          "comment": "Any substance which when absorbed into a living organism may modify one or more of its functions. The term is generally accepted for a substance taken for a therapeutic purpose, but is also commonly used for abused substances.",
+          "synonyms": [
+            "drugs",
+            "medicine"
+          ],
+          "superClasses": [
+            "pharmaceutical"
+          ],
+          "subClasses": [
+            "antiinfective agent",
+            "central nervous system drug",
+            "anti-inflammatory drug",
+            "analgesic",
+            "bronchodilator agent",
+            "cardiovascular drug",
+            "neurotransmitter agent",
+            "anaesthetic",
+            "protective agent",
+            "mydriatic agent",
+            "bone density conservation agent",
+            "reproductive control drug",
+            "nutraceutical",
+            "immunomodulator",
+            "antacid",
+            "vulnerary",
+            "astringent",
+            "receptor modulator"
+          ],
+          "objectProperties": [],
+          "dataProperties": [],
+          "equivalentClasses": [],
+          "disjointWith": [],
+          "individuals": []
+        }
+      ]
+    }
+  },
+  "entity_enhancer__ontology_clo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=enhancer&ontology_ids=clo&top_class_per_entity=1&score_threshold=0.5&context=True",
+    "params": {
+      "description_text": "enhancer",
+      "ontology_ids": "clo",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "clo",
+          "mapping": {
+            "enhancer": [
+              {
+                "type": "class",
+                "score": 0.6075,
+                "matched_text": "gene expression",
+                "matched_field": "label",
+                "class": {
+                  "iri": "http://purl.obolibrary.org/obo/GO_0010467",
+                  "label": [
+                    "gene expression"
+                  ]
+                }
+              }
+            ]
+          },
+          "score_threshold": 0.5
+        }
+      ],
+      "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/GO_0010467",
+      "type": "Class",
+      "label": [
+        "gene expression"
+      ],
+      "comment": "The process in which a gene's sequence is converted into a mature gene product (protein or RNA). This includes the production of an RNA transcript and its processing, translation and maturation for protein-coding genes.",
+      "synonyms": [],
+      "superClasses": [
+        "biological_process",
+        "macromolecule metabolic process"
+      ],
+      "subClasses": [
+        "cell line cell gene expression",
+        "cytokine production",
+        "production of molecular mediator of immune response"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}
+  },
+  "entity_enhancer__ontology_dpo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=enhancer&ontology_ids=dpo&top_class_per_entity=1&score_threshold=0.5&context=True",
+    "params": {
+      "description_text": "enhancer",
+      "ontology_ids": "dpo",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "dpo",
+          "mapping": {
+            "enhancer": [
+              {
+                "type": "class",
+                "score": 0.5277,
+                "matched_text": "increased quality",
+                "matched_field": "label",
+                "class": {
+                  "iri": "http://purl.obolibrary.org/obo/PATO_0002300",
+                  "label": [
+                    "increased quality"
+                  ]
+                }
+              }
+            ]
+          },
+          "score_threshold": 0.5
+        }
+      ],
+      "context": [
+        {
+          "id": "http://purl.obolibrary.org/obo/PATO_0002300",
+          "type": "Class",
+          "label": [
+            "increased quality"
+          ],
+          "comment": "A quality that has a value that is increased compared to normal or average.",
+          "synonyms": [],
+          "superClasses": [
+            "deviation (from_normal)"
+          ],
+          "subClasses": [
+            "increased amount",
+            "increased process quality",
+            "increased object quality"
+          ],
+          "objectProperties": [],
+          "dataProperties": [],
+          "equivalentClasses": [],
+          "disjointWith": [],
+          "individuals": []
+        }
+      ]
+    }
+  },
+  "entity_enhancer__ontology_mp.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=enhancer&ontology_ids=mp&top_class_per_entity=1&score_threshold=0.5&context=True",
+    "params": {
+      "description_text": "enhancer",
+      "ontology_ids": "mp",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "mp",
+          "mapping": {
+            "enhancer": [
+              {
+                "type": "class",
+                "score": 0.6319,
+                "matched_text": "gene",
+                "matched_field": "label",
+                "class": {
+                  "iri": "http://purl.obolibrary.org/obo/SO_0000704",
+                  "label": [
+                    "gene"
+                  ]
+                }
+              }
+            ]
+          },
+          "score_threshold": 0.5
+        }
+      ],
+      "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/SO_0000704",
+      "type": "Class",
+      "label": [
+        "gene"
+      ],
+      "comment": "This term is mapped to MGED. Do not obsolete without consulting MGED ontology. A gene may be considered as a unit of inheritance.",
+      "synonyms": [],
+      "superClasses": [
+        "sequence_feature"
+      ],
+      "subClasses": [
+        "protein_coding_gene"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}
+  },
+  "entity_enhancer__ontology_uberon.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=enhancer&ontology_ids=uberon&top_class_per_entity=1&score_threshold=0.5&context=True",
+    "params": {
+      "description_text": "enhancer",
+      "ontology_ids": "uberon",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "uberon",
+          "mapping": {
+            "enhancer": [
+              {
+                "type": "class",
+                "score": 0.6059,
+                "matched_text": "fuel enhancer",
+                "matched_field": "synonym",
+                "class": {
+                  "iri": "http://purl.obolibrary.org/obo/CHEBI_62803",
+                  "label": [
+                    "fuel additive"
+                  ]
+                }
+              }
+            ]
+          },
+          "score_threshold": 0.5
+        }
+      ],
+      "context": [
+        {
+          "id": "http://purl.obolibrary.org/obo/CHEBI_62803",
+          "type": "Class",
+          "label": [
+            "fuel additive"
+          ],
+          "comment": "Any additive that enhances the efficiency of fuel.",
+          "synonyms": [
+            "fuel additives",
+            "fuel enhancer"
+          ],
+          "superClasses": [
+            "chemical role"
+          ],
+          "subClasses": [],
+          "objectProperties": [],
+          "dataProperties": [],
+          "equivalentClasses": [],
+          "disjointWith": [],
+          "individuals": []
+        }
+      ]
+    }
+  },
+  "entity_gene__ontology_clo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=gene&ontology_ids=clo&top_class_per_entity=1&score_threshold=0.5&context=True",
+    "params": {
+      "description_text": "gene",
+      "ontology_ids": "clo",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "clo",
+          "mapping": {
+            "gene": [
+              {
+                "type": "class",
+                "score": 0.7452,
+                "matched_text": "Category=gene.",
+                "matched_field": "comment",
+                "class": {
+                  "iri": "http://purl.obolibrary.org/obo/PR_000007636",
+                  "label": [
+                    "forkhead box protein N1"
+                  ]
+                }
+              }
+            ]
+          },
+          "score_threshold": 0.5
+        }
+      ],
+      "context": [
+        {
+          "id": "http://purl.obolibrary.org/obo/PR_000007636",
+          "type": "Class",
+          "label": [
+            "forkhead box protein N1"
+          ],
+          "comment": "Category=gene.",
+          "synonyms": [
+            "Hfh11",
+            "hepatocyte nuclear factor 3 forkhead homolog 11",
+            "WHN",
+            "FOXN1",
+            "HNF-3/forkhead homolog 11",
+            "Fkh19",
+            "RONU",
+            "HFH-11",
+            "winged-helix transcription factor nude"
+          ],
+          "superClasses": [
+            "protein",
+            "protein"
+          ],
+          "subClasses": [],
+          "objectProperties": [],
+          "dataProperties": [],
+          "equivalentClasses": [],
+          "disjointWith": [],
+          "individuals": []
+        }
+      ]
+    }
+  },
+  "entity_gene__ontology_dpo.json": {
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "dpo",
+      "mapping": {
+        "gene": [
+          {
+            "type": "class",
+            "score": 0.5335,
+            "matched_text": "The execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module.",
+            "matched_field": "comment",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/FBdv_00007024",
+              "label": [
+                "biological process"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/FBdv_00007024",
+      "type": "Class",
+      "label": [
+        "biological process"
+      ],
+      "comment": "The execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module.",
+      "synonyms": [],
+      "superClasses": [
+        "occurrent"
+      ],
+      "subClasses": [
+        "developmental process",
+        "embryonic cycle"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+},
+  "entity_gene__ontology_mp.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=gene&ontology_ids=mp&top_class_per_entity=1&score_threshold=0.5&context=True",
+    "params": {
+      "description_text": "gene",
+      "ontology_ids": "mp",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "mp",
+          "mapping": {
+            "gene": [
+              {
+                "type": "class",
+                "score": 1.0,
+                "matched_text": "gene",
+                "matched_field": "label",
+                "class": {
+                  "iri": "http://purl.obolibrary.org/obo/SO_0000704",
+                  "label": [
+                    "gene"
+                  ]
+                }
+              }
+            ]
+          },
+          "score_threshold": 0.5
+        }
+      ],
+      "context": [
+        {
+          "id": "http://purl.obolibrary.org/obo/SO_0000704",
+          "type": "Class",
+          "label": [
+            "gene"
+          ],
+          "comment": "This term is mapped to MGED. Do not obsolete without consulting MGED ontology. A gene may be considered as a unit of inheritance.",
+          "synonyms": [],
+          "superClasses": [
+            "sequence_feature"
+          ],
+          "subClasses": [
+            "protein_coding_gene"
+          ],
+          "objectProperties": [],
+          "dataProperties": [],
+          "equivalentClasses": [],
+          "disjointWith": [],
+          "individuals": []
+        }
+      ]
+    }
+  },
+  "entity_gene__ontology_uberon.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=gene&ontology_ids=uberon&top_class_per_entity=1&score_threshold=0.5&context=True",
+    "params": {
+      "description_text": "gene",
+      "ontology_ids": "uberon",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "response" {
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "uberon",
+      "mapping": {
+        "gene": [
+          {
+            "type": "class",
+            "score": 0.7452,
+            "matched_text": "Category=gene.",
+            "matched_field": "comment",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/PR_000003353",
+              "label": [
+                "collagen alpha-1(VI) chain"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/PR_000003353",
+      "type": "Class",
+      "label": [
+        "collagen alpha-1(VI) chain"
+      ],
+      "comment": "Category=gene.",
+      "synonyms": [
+        "COL6A1"
+      ],
+      "superClasses": [
+        "collagen type VI alpha chain"
+      ],
+      "subClasses": [
+        "collagen alpha-1(VI) chain proteolytic cleavage product",
+        "collagen alpha-1(VI) chain (human)",
+        "collagen alpha-1(VI) chain (chicken)",
+        "collagen alpha-1(VI) chain (mouse)"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+},
+  "entity_regulatoryAssociation__ontology_clo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=regulatoryAssociation&ontology_ids=clo&top_class_per_entity=1&score_threshold=0.5&context=true",
+    "params": {
+      "description_text": "regulatoryAssociation",
+      "ontology_ids": "clo",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    }
+  },
+  "response" {
+    "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "clo",
+      "mapping": {
+        "regulatoryAssociation": [
+          {
+            "type": "class",
+            "score": 0.7225,
+            "matched_text": "regulation",
+            "matched_field": "synonym",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/GO_0065007",
+              "label": [
+                "biological regulation"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/GO_0065007",
+      "type": "Class",
+      "label": [
+        "biological regulation"
+      ],
+      "comment": "Any process that modulates a measurable attribute of any biological process, quality or function.",
+      "synonyms": [
+        "regulation"
+      ],
+      "superClasses": [
+        "biological_process"
+      ],
+      "subClasses": [
+        "regulation of biological process",
+        "regulation of biological quality"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}
+  "entity_regulatoryAssociation__ontology_dpo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=regulatoryAssociation&ontology_ids=dpo&top_class_per_entity=1&score_threshold=0.5&context=true",
+    "params": {
+      "description_text": "regulatoryAssociation",
+      "ontology_ids": "dpo",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    }
+  },
+  "response" {
+    "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "dpo",
+      "mapping": {
+        "regulatoryAssociation": [
+          {
+            "type": "class",
+            "score": 0.7225,
+            "matched_text": "regulation",
+            "matched_field": "synonym",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/GO_0065007",
+              "label": [
+                "biological regulation"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/GO_0065007",
+      "type": "Class",
+      "label": [
+        "biological regulation"
+      ],
+      "comment": "Any process that modulates a measurable attribute of any biological process, quality or function.",
+      "synonyms": [
+        "regulation"
+      ],
+      "superClasses": [
+        "biological_process"
+      ],
+      "subClasses": [
+        "regulation of biological process"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}
+  "entity_regulatoryAssociation__ontology_mp.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=regulatoryAssociation&ontology_ids=mp&top_class_per_entity=1&score_threshold=0.5&context=true",
+    "params": {
+      "description_text": "regulatoryAssociation",
+      "ontology_ids": "mp",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    }
+  },
+  "response" {
+     "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "mp",
+      "mapping": {
+        "regulatoryAssociation": [
+          {
+            "type": "class",
+            "score": 0.7225,
+            "matched_text": "regulation",
+            "matched_field": "synonym",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/GO_0065007",
+              "label": [
+                "biological regulation"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/GO_0065007",
+      "type": "Class",
+      "label": [
+        "biological regulation"
+      ],
+      "comment": "Any process that modulates a measurable attribute of any biological process, quality or function.",
+      "synonyms": [
+        "regulation"
+      ],
+      "superClasses": [
+        "biological process"
+      ],
+      "subClasses": [
+        "regulation of pH",
+        "regulation of biological process",
+        "regulation of biological quality",
+        "regulation of molecular function"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}
+  "entity_regulatoryAssociation__ontology_uberon.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=regulatoryAssociation&ontology_ids=uberon&top_class_per_entity=1&score_threshold=0.5&context=true",
+    "params": {
+      "description_text": "regulatoryAssociation",
+      "ontology_ids": "uberon",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    }
+  },
+  "response" {
+     "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "uberon",
+      "mapping": {
+        "regulatoryAssociation": [
+          {
+            "type": "class",
+            "score": 0.7225,
+            "matched_text": "regulation",
+            "matched_field": "synonym",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/GO_0065007",
+              "label": [
+                "biological regulation"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/GO_0065007",
+      "type": "Class",
+      "label": [
+        "biological regulation"
+      ],
+      "comment": "Any process that modulates a measurable attribute of any biological process, quality or function.",
+      "synonyms": [
+        "regulation"
+      ],
+      "superClasses": [
+        "biological process"
+      ],
+      "subClasses": [
+        "regulation of pH",
+        "regulation of buoyancy",
+        "regulation of biological process",
+        "regulation of biological quality",
+        "regulation of molecular function"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}
+  "entity_tissueContext__ontology_clo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=tissueContext&ontology_ids=clo&top_class_per_entity=1&score_threshold=0.5&context=true",
+    "params": {
+      "description_text": "tissueContext",
+      "ontology_ids": "clo",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "response" {
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "clo",
+      "mapping": {
+        "tissueContext": [
+          {
+            "type": "class",
+            "score": 0.7516,
+            "matched_text": "tissue portion",
+            "matched_field": "synonym",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/UBERON_0000479",
+              "label": [
+                "tissue"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/UBERON_0000479",
+      "type": "Class",
+      "label": [
+        "tissue"
+      ],
+      "comment": "Multicellular anatomical structure that consists of many cells of one or a few types, arranged in an extracellular matrix such that their long-range organisation is at least partly a repetition of their short-range organisation.",
+      "synonyms": [
+        "tissue portion",
+        "portion of tissue",
+        "simple tissue"
+      ],
+      "superClasses": [
+        "multicellular anatomical structure"
+      ],
+      "subClasses": [
+        "external ectoderm",
+        "cell layer",
+        "epithelium",
+        "lymphoid tissue",
+        "bone marrow",
+        "connective tissue",
+        "muscle tissue",
+        "mesenchyme",
+        "neural tissue",
+        "optic vesicle",
+        "embryonic tissue",
+        "extraembryonic tissue",
+        "lens vesicle",
+        "corneal primordium",
+        "non-neural ectoderm",
+        "umbilicus",
+        "anlage",
+        "erectile tissue",
+        "nephron progenitor",
+        "heterogeneous tissue"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}
+  },
+  "entity_tissueContext__ontology_dpo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=tissueContext&ontology_ids=dpo&top_class_per_entity=1&score_threshold=0.5&context=true",
+    "params": {
+      "description_text": "tissueContext",
+      "ontology_ids": "dpo",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "response" {
+      "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "dpo",
+      "mapping": {
+        "tissueContext": [
+          {
+            "type": "class",
+            "score": 0.7209,
+            "matched_text": "portion of tissue",
+            "matched_field": "label",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/FBbt_00007003",
+              "label": [
+                "portion of tissue"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/FBbt_00007003",
+      "type": "Class",
+      "label": [
+        "portion of tissue"
+      ],
+      "comment": "Anatomical structure, that consists of similar cells and intercellular matrix, aggregated according to genetically determined spatial relationships.",
+      "synonyms": [],
+      "superClasses": [
+        "multicellular structure"
+      ],
+      "subClasses": [
+        "germ layer",
+        "anlage",
+        "epithelium"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [
+        "multi-tissue structure",
+        "cell cluster organ",
+        "compound cell cluster organ"
+      ],
+      "individuals": []
+    }
+  ]
+}
+  "entity_tissueContext__ontology_mp.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=tissueContext&ontology_ids=mp&top_class_per_entity=1&score_threshold=0.5&context=true",
+    "params": {
+      "description_text": "tissueContext",
+      "ontology_ids": "mp",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "response" {
+       "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "mp",
+      "mapping": {
+        "tissueContext": [
+          {
+            "type": "class",
+            "score": 0.7516,
+            "matched_text": "tissue portion",
+            "matched_field": "synonym",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/UBERON_0000479",
+              "label": [
+                "tissue"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/UBERON_0000479",
+      "type": "Class",
+      "label": [
+        "tissue"
+      ],
+      "comment": "Multicellular anatomical structure that consists of many cells of one or a few types, arranged in an extracellular matrix such that their long-range organisation is at least partly a repetition of their short-range organisation.",
+      "synonyms": [
+        "tissue portion",
+        "portion of tissue",
+        "simple tissue"
+      ],
+      "superClasses": [
+        "multicellular anatomical structure"
+      ],
+      "subClasses": [
+        "macula",
+        "lens cortex",
+        "dermal papilla",
+        "epithelium",
+        "lamina",
+        "periodontium",
+        "nail matrix",
+        "bone marrow",
+        "connective tissue",
+        "muscle tissue",
+        "thyroid primordium",
+        "mesenchyme",
+        "neural tissue",
+        "cardiac jelly",
+        "optic vesicle",
+        "embryonic tissue",
+        "extraembryonic tissue",
+        "lens vesicle",
+        "corneal primordium",
+        "non-neural ectoderm",
+        "bulb of hair follicle",
+        "hair root sheath",
+        "hair root sheath matrix",
+        "eye trabecular meshwork",
+        "umbilicus",
+        "matrix-based tissue",
+        "anlage",
+        "erectile tissue",
+        "trabecular network of bone",
+        "periurethral tissue",
+        "pleuroperitoneal membrane",
+        "anterior lateral plate mesoderm",
+        "lateral line",
+        "midbrain neural tube",
+        "germ layer / neural crest",
+        "nephron progenitor",
+        "superficial fascia",
+        "heterogeneous tissue",
+        "adrenal tissue",
+        "mineralized extracellular matrix"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}
+  "entity_tissueContext__ontology_uberon.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=tissueContext&ontology_ids=uberon&top_class_per_entity=1&score_threshold=0.5&context=true",
+    "params": {
+      "description_text": "tissueContext",
+      "ontology_ids": "uberon",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "response" {
+      "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "uberon",
+      "mapping": {
+        "tissueContext": [
+          {
+            "type": "class",
+            "score": 0.7516,
+            "matched_text": "tissue portion",
+            "matched_field": "synonym",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/UBERON_0000479",
+              "label": [
+                "tissue"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/UBERON_0000479",
+      "type": "Class",
+      "label": [
+        "tissue"
+      ],
+      "comment": "Multicellular anatomical structure that consists of many cells of one or a few types, arranged in an extracellular matrix such that their long-range organisation is at least partly a repetition of their short-range organisation.",
+      "synonyms": [
+        "tissue portion",
+        "portion of tissue",
+        "simple tissue"
+      ],
+      "superClasses": [
+        "multicellular anatomical structure"
+      ],
+      "subClasses": [
+        "macula",
+        "lens cortex",
+        "dermal papilla",
+        "epithelium",
+        "lamina",
+        "periodontium",
+        "nail matrix",
+        "bone marrow",
+        "connective tissue",
+        "muscle tissue",
+        "hypochord",
+        "thyroid primordium",
+        "mesenchyme",
+        "neural tissue",
+        "cardiac jelly",
+        "optic vesicle",
+        "anterior ectodermal midgut",
+        "embryonic tissue",
+        "extraembryonic tissue",
+        "lens vesicle",
+        "corneal primordium",
+        "filum terminale",
+        "non-neural ectoderm",
+        "bulb of hair follicle",
+        "hair root sheath",
+        "hair root sheath matrix",
+        "eye trabecular meshwork",
+        "umbilicus",
+        "matrix-based tissue",
+        "anlage",
+        "erectile tissue",
+        "trabecular network of bone",
+        "periurethral tissue",
+        "gill filament",
+        "pleuroperitoneal membrane",
+        "anterior lateral plate mesoderm",
+        "lateral line",
+        "placodal ectoderm",
+        "filum terminale internum",
+        "filum terminale externum",
+        "midbrain neural tube",
+        "germ layer / neural crest",
+        "nephron progenitor",
+        "dermal pulp of feather shaft",
+        "dermis of feather follicle",
+        "epidermis of feather follicle",
+        "superficial fascia",
+        "pearly penile papule",
+        "penile spine",
+        "retromolar triangle",
+        "core of melon organ",
+        "elastica externa of notochord",
+        "heterogeneous tissue",
+        "root of nail",
+        "adrenal tissue",
+        "ventral wall of dorsal aorta",
+        "mole",
+        "intermediate cell mass of mesoderm",
+        "gigantocellular part of magnocellular preoptic nucleus",
+        "lateral line primordium",
+        "lower oral valve",
+        "primary olfactory fiber layer",
+        "branchiostegal membrane",
+        "external cellular layer",
+        "granular layer corpus cerebelli",
+        "molecular layer corpus cerebelli",
+        "upper oral valve",
+        "internal cellular layer",
+        "saccus dorsalis",
+        "cerebellar crest",
+        "granular layer valvula cerebelli",
+        "molecular layer valvula cerebelli",
+        "epidermal superficial stratum",
+        "epidermal intermediate stratum",
+        "corpuscles of Stannius",
+        "stratum fibrosum et griseum superficiale",
+        "stratum marginale",
+        "stratum opticum",
+        "stratum periventriculare",
+        "alar plate midbrain",
+        "notochord posterior region",
+        "anterior swim bladder bud",
+        "climbing fiber",
+        "dorsolateral septum",
+        "epidermal placode",
+        "mossy fiber",
+        "parallel fiber, teleost",
+        "pillar of the semicircular canal",
+        "Purkinje cell layer corpus cerebelli",
+        "Purkinje cell layer valvula cerebelli",
+        "scale primordium",
+        "rostral blood island",
+        "endocardial ring",
+        "intervillus pockets",
+        "dorso-rostral cluster",
+        "epiphysial cluster",
+        "neurogenic field",
+        "basimandibulare",
+        "pars amphibiorum",
+        "pars basilaris",
+        "pars acromialis",
+        "pars glenoidalis of scapula",
+        "equatorial belt",
+        "inner fin tissue",
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}
+  "entity_transcriptionFactor__ontology_clo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=transcriptionFactor&ontology_ids=clo&top_class_per_entity=1&score_threshold=0.5&context=true",
+    "params": {
+      "description_text": "transcriptionFactor",
+      "ontology_ids": "clo",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    },
+    "respoonse" {
+{
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "clo",
+      "mapping": {
+        "transcriptionFactor": [
+          {
+            "type": "class",
+            "score": 0.7116,
+            "matched_text": "transcription factor PU.1",
+            "matched_field": "label",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/PR_000001944",
+              "label": [
+                "transcription factor PU.1"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/PR_000001944",
+      "type": "Class",
+      "label": [
+        "transcription factor PU.1"
+      ],
+      "comment": "Category=gene. Requested by=CL.",
+      "synonyms": [
+        "31 kDa-transforming protein",
+        "SFFV proviral integration 1 protein",
+        "SPI1",
+        "Sfpi-1",
+        "Sfpi1"
+      ],
+      "superClasses": [
+        "protein",
+        "protein"
+      ],
+      "subClasses": [],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}
+  },
+  "entity_transcriptionFactor__ontology_dpo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=transcriptionFactor&ontology_ids=dpo&top_class_per_entity=1&score_threshold=0.5&context=true",
+    "params": {
+      "description_text": "transcriptionFactor",
+      "ontology_ids": "dpo",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    }
+"response": {
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "dpo",
+      "mapping": {
+        "transcriptionFactor": []
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": []
+}
+  },
+  "entity_transcriptionFactor__ontology_mp.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=transcriptionFactor&ontology_ids=mp&top_class_per_entity=1&score_threshold=0.5&context=true",
+    "params": {
+      "description_text": "transcriptionFactor",
+      "ontology_ids": "mp",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    }
+"response": {
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "mp",
+      "mapping": {
+        "transcriptionFactor": [
+          {
+            "type": "class",
+            "score": 0.8965,
+            "matched_text": "transcription factor binding",
+            "matched_field": "label",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/GO_0008134",
+              "label": [
+                "transcription factor binding"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/GO_0008134",
+      "type": "Class",
+      "label": [
+        "transcription factor binding"
+      ],
+      "comment": "Note that this term should not be used for direct annotation. Please consider one of the more specific descendants, GO:0140297 ; DNA-binding transcription factor binding, GO:0140296 ; general transcription initiation factor binding or GO:0001221 ; transcription coregulator binding.",
+      "synonyms": [
+        "transcription regulator binding",
+        "TF binding"
+      ],
+      "superClasses": [
+        "protein binding"
+      ],
+      "subClasses": [
+        "DNA-binding transcription factor binding"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}
+  },
+  "entity_transcriptionFactor__ontology_uberon.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=transcriptionFactor&ontology_ids=uberon&top_class_per_entity=1&score_threshold=0.5&context=true",
+    "params": {
+      "description_text": "transcriptionFactor",
+      "ontology_ids": "uberon",
+      "top_class_per_entity": 1,
+      "score_threshold": 0.5,
+      "context": true
+    }
+"response": {
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "uberon",
+      "mapping": {
+        "transcriptionFactor": [
+          {
+            "type": "class",
+            "score": 0.8965,
+            "matched_text": "transcription factor binding",
+            "matched_field": "label",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/GO_0008134",
+              "label": [
+                "transcription factor binding"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/GO_0008134",
+      "type": "Class",
+      "label": [
+        "transcription factor binding"
+      ],
+      "comment": "Note that this term should not be used for direct annotation. Please consider one of the more specific descendants, GO:0140297 ; DNA-binding transcription factor binding, GO:0140296 ; general transcription initiation factor binding or GO:0001221 ; transcription coregulator binding.",
+      "synonyms": [
+        "transcription regulator binding",
+        "TF binding"
+      ],
+      "superClasses": [
+        "protein binding"
+      ],
+      "subClasses": [
+        "DNA-binding transcription factor binding"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}
+    
+  

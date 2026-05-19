@@ -1,0 +1,51 @@
+{
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "clo",
+      "mapping": {
+        "regulatoryAssociation": [
+          {
+            "type": "class",
+            "score": 0.7225,
+            "matched_text": "regulation",
+            "matched_field": "synonym",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/GO_0065007",
+              "label": [
+                "biological regulation"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/GO_0065007",
+      "type": "Class",
+      "label": [
+        "biological regulation"
+      ],
+      "comment": "Any process that modulates a measurable attribute of any biological process, quality or function.",
+      "synonyms": [
+        "regulation"
+      ],
+      "superClasses": [
+        "biological_process"
+      ],
+      "subClasses": [
+        "regulation of biological process",
+        "regulation of biological quality"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}

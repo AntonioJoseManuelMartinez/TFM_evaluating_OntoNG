@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "status_code": 200,
+  "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=disease&ontology_ids=mp&top_class_per_entity=1&score_threshold=0.5&context=True",
+  "params": {
+    "description_text": "disease",
+    "ontology_ids": "mp",
+    "top_class_per_entity": 1,
+    "score_threshold": 0.5,
+    "context": true
+  },
+  "response": {
+    "is_plantuml": false,
+    "warnings": [],
+    "ontologies": [
+      {
+        "ontology_id": "mp",
+        "mapping": {
+          "disease": [
+            {
+              "type": "class",
+              "score": 0.7,
+              "matched_text": "This is a disease term.",
+              "matched_field": "comment",
+              "class": {
+                "iri": "http://purl.obolibrary.org/obo/MP_0002536",
+                "label": [
+                  "obsolete severe combined immunodeficiency disease"
+                ]
+              }
+            }
+          ]
+        },
+        "score_threshold": 0.5
+      }
+    ],
+    "context": [
+      {
+        "id": "http://purl.obolibrary.org/obo/MP_0002536",
+        "type": "Class",
+        "label": [
+          "obsolete severe combined immunodeficiency disease"
+        ],
+        "comment": "This is a disease term.",
+        "synonyms": [
+          "SCID"
+        ],
+        "superClasses": [],
+        "subClasses": [],
+        "objectProperties": [],
+        "dataProperties": [],
+        "equivalentClasses": [],
+        "disjointWith": [],
+        "individuals": []
+      }
+    ]
+  }
+}

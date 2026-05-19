@@ -1,0 +1,753 @@
+{
+  "count": 187,
+  "ontologies": [
+    {
+      "ontologyId": "SnomedCT_InternationalRF2_PRODUCTION_20260301T120000Z-rdfxml",
+      "classCount": 379145
+    },
+    {
+      "ontologyId": "ado",
+      "classCount": 1963
+    },
+    {
+      "ontologyId": "afpo",
+      "classCount": 473
+    },
+    {
+      "ontologyId": "agro",
+      "classCount": 4162
+    },
+    {
+      "ontologyId": "aism",
+      "classCount": 8614
+    },
+    {
+      "ontologyId": "amphx",
+      "classCount": 403
+    },
+    {
+      "ontologyId": "apo",
+      "classCount": 619
+    },
+    {
+      "ontologyId": "apollo_sv",
+      "classCount": 1716
+    },
+    {
+      "ontologyId": "aro",
+      "classCount": 8582
+    },
+    {
+      "ontologyId": "bco",
+      "classCount": 253
+    },
+    {
+      "ontologyId": "bfo",
+      "classCount": 35
+    },
+    {
+      "ontologyId": "bmont",
+      "classCount": 640
+    },
+    {
+      "ontologyId": "bspo",
+      "classCount": 169
+    },
+    {
+      "ontologyId": "bto",
+      "classCount": 6569
+    },
+    {
+      "ontologyId": "cdao",
+      "classCount": 131
+    },
+    {
+      "ontologyId": "cdno",
+      "classCount": 2109
+    },
+    {
+      "ontologyId": "chebi",
+      "classCount": 224560
+    },
+    {
+      "ontologyId": "cheminf",
+      "classCount": 263
+    },
+    {
+      "ontologyId": "chiro",
+      "classCount": 26
+    },
+    {
+      "ontologyId": "chmo",
+      "classCount": 3234
+    },
+    {
+      "ontologyId": "cido",
+      "classCount": 31924
+    },
+    {
+      "ontologyId": "cio",
+      "classCount": 44
+    },
+    {
+      "ontologyId": "cl",
+      "classCount": 19151
+    },
+    {
+      "ontologyId": "clao",
+      "classCount": 1516
+    },
+    {
+      "ontologyId": "clo",
+      "classCount": 43327
+    },
+    {
+      "ontologyId": "clyh",
+      "classCount": 265
+    },
+    {
+      "ontologyId": "cmo",
+      "classCount": 4140
+    },
+    {
+      "ontologyId": "cob",
+      "classCount": 68
+    },
+    {
+      "ontologyId": "colao",
+      "classCount": 894
+    },
+    {
+      "ontologyId": "cro",
+      "classCount": 105
+    },
+    {
+      "ontologyId": "cteno",
+      "classCount": 172
+    },
+    {
+      "ontologyId": "cto",
+      "classCount": 298
+    },
+    {
+      "ontologyId": "cvdo",
+      "classCount": 720
+    },
+    {
+      "ontologyId": "ddanat",
+      "classCount": 135
+    },
+    {
+      "ontologyId": "ddpheno",
+      "classCount": 1373
+    },
+    {
+      "ontologyId": "dideo",
+      "classCount": 416
+    },
+    {
+      "ontologyId": "disdriv",
+      "classCount": 84
+    },
+    {
+      "ontologyId": "doid",
+      "classCount": 14590
+    },
+    {
+      "ontologyId": "dpo",
+      "classCount": 1552
+    },
+    {
+      "ontologyId": "dron",
+      "classCount": 778648
+    },
+    {
+      "ontologyId": "duo",
+      "classCount": 45
+    },
+    {
+      "ontologyId": "ecao",
+      "classCount": 7309
+    },
+    {
+      "ontologyId": "eco",
+      "classCount": 3355
+    },
+    {
+      "ontologyId": "ecocore",
+      "classCount": 5586
+    },
+    {
+      "ontologyId": "ecto",
+      "classCount": 11770
+    },
+    {
+      "ontologyId": "emapa",
+      "classCount": 8881
+    },
+    {
+      "ontologyId": "envo",
+      "classCount": 6906
+    },
+    {
+      "ontologyId": "epio",
+      "classCount": 1916
+    },
+    {
+      "ontologyId": "exmo",
+      "classCount": 449
+    },
+    {
+      "ontologyId": "exo",
+      "classCount": 168
+    },
+    {
+      "ontologyId": "fao",
+      "classCount": 117
+    },
+    {
+      "ontologyId": "fbbi",
+      "classCount": 677
+    },
+    {
+      "ontologyId": "fbbt",
+      "classCount": 29751
+    },
+    {
+      "ontologyId": "fbcv",
+      "classCount": 2338
+    },
+    {
+      "ontologyId": "fbdv",
+      "classCount": 250
+    },
+    {
+      "ontologyId": "fideo",
+      "classCount": 3543
+    },
+    {
+      "ontologyId": "flopo",
+      "classCount": 24204
+    },
+    {
+      "ontologyId": "fobi",
+      "classCount": 1334
+    },
+    {
+      "ontologyId": "foodon",
+      "classCount": 39682
+    },
+    {
+      "ontologyId": "fovt",
+      "classCount": 11980
+    },
+    {
+      "ontologyId": "fypo",
+      "classCount": 10517
+    },
+    {
+      "ontologyId": "gallont",
+      "classCount": 394
+    },
+    {
+      "ontologyId": "gecko",
+      "classCount": 154
+    },
+    {
+      "ontologyId": "genepio",
+      "classCount": 9159
+    },
+    {
+      "ontologyId": "geno",
+      "classCount": 589
+    },
+    {
+      "ontologyId": "geo",
+      "classCount": 59
+    },
+    {
+      "ontologyId": "gno",
+      "classCount": 198340
+    },
+    {
+      "ontologyId": "go",
+      "classCount": 51937
+    },
+    {
+      "ontologyId": "gsso",
+      "classCount": 13192
+    },
+    {
+      "ontologyId": "hancestro",
+      "classCount": 1310
+    },
+    {
+      "ontologyId": "hao",
+      "classCount": 2597
+    },
+    {
+      "ontologyId": "hom",
+      "classCount": 66
+    },
+    {
+      "ontologyId": "hp",
+      "classCount": 32085
+    },
+    {
+      "ontologyId": "hsapdv",
+      "classCount": 260
+    },
+    {
+      "ontologyId": "hso",
+      "classCount": 448
+    },
+    {
+      "ontologyId": "htn",
+      "classCount": 603
+    },
+    {
+      "ontologyId": "iao",
+      "classCount": 266
+    },
+    {
+      "ontologyId": "iceo",
+      "classCount": 30914
+    },
+    {
+      "ontologyId": "ico",
+      "classCount": 1197
+    },
+    {
+      "ontologyId": "ido",
+      "classCount": 518
+    },
+    {
+      "ontologyId": "ino",
+      "classCount": 328
+    },
+    {
+      "ontologyId": "kisao",
+      "classCount": 525
+    },
+    {
+      "ontologyId": "labo",
+      "classCount": 169
+    },
+    {
+      "ontologyId": "lepao",
+      "classCount": 822
+    },
+    {
+      "ontologyId": "ma",
+      "classCount": 3390
+    },
+    {
+      "ontologyId": "maxo",
+      "classCount": 7120
+    },
+    {
+      "ontologyId": "mco",
+      "classCount": 3383
+    },
+    {
+      "ontologyId": "mcro",
+      "classCount": 47
+    },
+    {
+      "ontologyId": "mf",
+      "classCount": 400
+    },
+    {
+      "ontologyId": "mfoem",
+      "classCount": 624
+    },
+    {
+      "ontologyId": "mfomd",
+      "classCount": 7
+    },
+    {
+      "ontologyId": "mi",
+      "classCount": 1655
+    },
+    {
+      "ontologyId": "miapa",
+      "classCount": 43
+    },
+    {
+      "ontologyId": "mmo",
+      "classCount": 869
+    },
+    {
+      "ontologyId": "mmusdv",
+      "classCount": 178
+    },
+    {
+      "ontologyId": "mod",
+      "classCount": 2116
+    },
+    {
+      "ontologyId": "mondo",
+      "classCount": 57239
+    },
+    {
+      "ontologyId": "mop",
+      "classCount": 3686
+    },
+    {
+      "ontologyId": "mp",
+      "classCount": 35098
+    },
+    {
+      "ontologyId": "mpath",
+      "classCount": 891
+    },
+    {
+      "ontologyId": "mpio",
+      "classCount": 39
+    },
+    {
+      "ontologyId": "mro",
+      "classCount": 51436
+    },
+    {
+      "ontologyId": "ms",
+      "classCount": 4085
+    },
+    {
+      "ontologyId": "nbo",
+      "classCount": 4546
+    },
+    {
+      "ontologyId": "ncit",
+      "classCount": 209910
+    },
+    {
+      "ontologyId": "ncro",
+      "classCount": 3078
+    },
+    {
+      "ontologyId": "ngbo",
+      "classCount": 1515
+    },
+    {
+      "ontologyId": "nomen",
+      "classCount": 264
+    },
+    {
+      "ontologyId": "oae",
+      "classCount": 10589
+    },
+    {
+      "ontologyId": "oarcs",
+      "classCount": 308
+    },
+    {
+      "ontologyId": "oba",
+      "classCount": 82874
+    },
+    {
+      "ontologyId": "obcs",
+      "classCount": 1210
+    },
+    {
+      "ontologyId": "obi",
+      "classCount": 5178
+    },
+    {
+      "ontologyId": "obib",
+      "classCount": 1803
+    },
+    {
+      "ontologyId": "occo",
+      "classCount": 1801
+    },
+    {
+      "ontologyId": "ogg",
+      "classCount": 69688
+    },
+    {
+      "ontologyId": "ogms",
+      "classCount": 186
+    },
+    {
+      "ontologyId": "ohd",
+      "classCount": 1820
+    },
+    {
+      "ontologyId": "ohmi",
+      "classCount": 1303
+    },
+    {
+      "ontologyId": "ohpi",
+      "classCount": 11291
+    },
+    {
+      "ontologyId": "omit",
+      "classCount": 87816
+    },
+    {
+      "ontologyId": "omo",
+      "classCount": 27
+    },
+    {
+      "ontologyId": "omp",
+      "classCount": 2309
+    },
+    {
+      "ontologyId": "omrse",
+      "classCount": 474
+    },
+    {
+      "ontologyId": "one",
+      "classCount": 88
+    },
+    {
+      "ontologyId": "ons",
+      "classCount": 4834
+    },
+    {
+      "ontologyId": "ontoavida",
+      "classCount": 674
+    },
+    {
+      "ontologyId": "ontoneo",
+      "classCount": 1420
+    },
+    {
+      "ontologyId": "oostt",
+      "classCount": 508
+    },
+    {
+      "ontologyId": "opl",
+      "classCount": 560
+    },
+    {
+      "ontologyId": "opmi",
+      "classCount": 3153
+    },
+    {
+      "ontologyId": "ornaseq",
+      "classCount": 163
+    },
+    {
+      "ontologyId": "ovae",
+      "classCount": 1554
+    },
+    {
+      "ontologyId": "pato",
+      "classCount": 8625
+    },
+    {
+      "ontologyId": "pbpko",
+      "classCount": 586
+    },
+    {
+      "ontologyId": "pcl",
+      "classCount": 37210
+    },
+    {
+      "ontologyId": "pco",
+      "classCount": 220
+    },
+    {
+      "ontologyId": "pdro",
+      "classCount": 310
+    },
+    {
+      "ontologyId": "peco",
+      "classCount": 1149
+    },
+    {
+      "ontologyId": "phipo",
+      "classCount": 10779
+    },
+    {
+      "ontologyId": "plana",
+      "classCount": 875
+    },
+    {
+      "ontologyId": "planp",
+      "classCount": 3560
+    },
+    {
+      "ontologyId": "po",
+      "classCount": 1998
+    },
+    {
+      "ontologyId": "poro",
+      "classCount": 649
+    },
+    {
+      "ontologyId": "ppo",
+      "classCount": 544
+    },
+    {
+      "ontologyId": "proco",
+      "classCount": 922
+    },
+    {
+      "ontologyId": "psdo",
+      "classCount": 97
+    },
+    {
+      "ontologyId": "pso",
+      "classCount": 4899
+    },
+    {
+      "ontologyId": "pw",
+      "classCount": 2760
+    },
+    {
+      "ontologyId": "rbo",
+      "classCount": 9209
+    },
+    {
+      "ontologyId": "ro",
+      "classCount": 58
+    },
+    {
+      "ontologyId": "rs",
+      "classCount": 5508
+    },
+    {
+      "ontologyId": "rxno",
+      "classCount": 1019
+    },
+    {
+      "ontologyId": "sbo",
+      "classCount": 695
+    },
+    {
+      "ontologyId": "scdo",
+      "classCount": 2071
+    },
+    {
+      "ontologyId": "sepio",
+      "classCount": 125
+    },
+    {
+      "ontologyId": "slso",
+      "classCount": 3978
+    },
+    {
+      "ontologyId": "so",
+      "classCount": 2747
+    },
+    {
+      "ontologyId": "spd",
+      "classCount": 832
+    },
+    {
+      "ontologyId": "stato",
+      "classCount": 1003
+    },
+    {
+      "ontologyId": "sulo",
+      "classCount": 17
+    },
+    {
+      "ontologyId": "swo",
+      "classCount": 1971
+    },
+    {
+      "ontologyId": "symp",
+      "classCount": 1019
+    },
+    {
+      "ontologyId": "t4fs",
+      "classCount": 563
+    },
+    {
+      "ontologyId": "taxrank",
+      "classCount": 77
+    },
+    {
+      "ontologyId": "to",
+      "classCount": 1740
+    },
+    {
+      "ontologyId": "trans",
+      "classCount": 35
+    },
+    {
+      "ontologyId": "tto",
+      "classCount": 38705
+    },
+    {
+      "ontologyId": "txpo",
+      "classCount": 9406
+    },
+    {
+      "ontologyId": "uberon",
+      "classCount": 27295
+    },
+    {
+      "ontologyId": "uo",
+      "classCount": 574
+    },
+    {
+      "ontologyId": "upheno",
+      "classCount": 193296
+    },
+    {
+      "ontologyId": "vbo",
+      "classCount": 20238
+    },
+    {
+      "ontologyId": "vo",
+      "classCount": 14787
+    },
+    {
+      "ontologyId": "vt",
+      "classCount": 4047
+    },
+    {
+      "ontologyId": "vto",
+      "classCount": 107254
+    },
+    {
+      "ontologyId": "wbbt",
+      "classCount": 7573
+    },
+    {
+      "ontologyId": "wbls",
+      "classCount": 796
+    },
+    {
+      "ontologyId": "wbphenotype",
+      "classCount": 6535
+    },
+    {
+      "ontologyId": "xao",
+      "classCount": 1830
+    },
+    {
+      "ontologyId": "xco",
+      "classCount": 1799
+    },
+    {
+      "ontologyId": "xlmod",
+      "classCount": 1106
+    },
+    {
+      "ontologyId": "xpo",
+      "classCount": 30225
+    },
+    {
+      "ontologyId": "zeco",
+      "classCount": 161
+    },
+    {
+      "ontologyId": "zfa",
+      "classCount": 3285
+    },
+    {
+      "ontologyId": "zfs",
+      "classCount": 3285
+    },
+    {
+      "ontologyId": "zp",
+      "classCount": 63809
+    }
+  ]
+}

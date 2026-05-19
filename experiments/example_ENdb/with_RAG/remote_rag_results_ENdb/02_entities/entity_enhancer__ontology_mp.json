@@ -1,0 +1,48 @@
+{
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "mp",
+      "mapping": {
+        "GeneEnhancer": [
+          {
+            "type": "class",
+            "score": 0.6319,
+            "matched_text": "gene",
+            "matched_field": "label",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/SO_0000704",
+              "label": [
+                "gene"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/SO_0000704",
+      "type": "Class",
+      "label": [
+        "gene"
+      ],
+      "comment": "This term is mapped to MGED. Do not obsolete without consulting MGED ontology. A gene may be considered as a unit of inheritance.",
+      "synonyms": [],
+      "superClasses": [
+        "sequence_feature"
+      ],
+      "subClasses": [
+        "protein_coding_gene"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}

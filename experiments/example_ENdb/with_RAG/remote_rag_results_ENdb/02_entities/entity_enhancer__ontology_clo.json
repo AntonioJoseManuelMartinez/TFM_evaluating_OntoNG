@@ -1,0 +1,51 @@
+{
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "clo",
+      "mapping": {
+        "GeneEnhancer": [
+          {
+            "type": "class",
+            "score": 0.6075,
+            "matched_text": "gene expression",
+            "matched_field": "label",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/GO_0010467",
+              "label": [
+                "gene expression"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/GO_0010467",
+      "type": "Class",
+      "label": [
+        "gene expression"
+      ],
+      "comment": "The process in which a gene's sequence is converted into a mature gene product (protein or RNA). This includes the production of an RNA transcript and its processing, translation and maturation for protein-coding genes.",
+      "synonyms": [],
+      "superClasses": [
+        "biological_process",
+        "macromolecule metabolic process"
+      ],
+      "subClasses": [
+        "cell line cell gene expression",
+        "cytokine production",
+        "production of molecular mediator of immune response"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}

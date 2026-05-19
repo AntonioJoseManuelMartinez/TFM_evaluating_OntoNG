@@ -1,0 +1,158 @@
+{
+  "enhancer": {
+    "clo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "mp": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "uberon": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "dpo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    }
+  },
+  "gene": {
+    "clo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "mp": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "uberon": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "dpo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    }
+  },
+  "transcriptionFactor": {
+    "clo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "mp": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "uberon": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "dpo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    }
+  },
+  "disease": {
+    "clo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "mp": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "uberon": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "dpo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    }
+  },
+  "tissueContext": {
+    "clo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "mp": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "uberon": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "dpo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    }
+  },
+  "regulatoryAssociation": {
+    "clo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "mp": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "uberon": {
+      "ok": false,
+      "status_code": null,
+      "error_type": "ConnectionError",
+      "error_message": "HTTPSConnectionPool(host='semantics.inf.um.es', port=443): Max retries exceeded with url: /rag-api/ontology/similar-entities?description_text=regulatoryAssociation&ontology_ids=uberon&top_class_per_entity=1&score_threshold=0.5&context=True (Caused by NameResolutionError(\"HTTPSConnection(host='semantics.inf.um.es', port=443): Failed to resolve 'semantics.inf.um.es' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    "dpo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    }
+  }
+}

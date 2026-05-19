@@ -1,0 +1,881 @@
+"relation_Enhancer_involves_RegulatoryAssociation__ontology_clo.json": {
+"ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=Enhancer+involves+RegulatoryAssociation&ontology_ids=clo&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "Enhancer involves RegulatoryAssociation",
+      "ontology_ids": "clo",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "clo",
+      "relations": [
+        {
+          "raw_relation": "Enhancer involves RegulatoryAssociation",
+          "query_text": "enhancer involves regulatory association",
+          "matches": [
+            {
+              "domain": {
+                "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                "label": "process"
+              },
+              "property": {
+                "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                "label": "regulated by"
+              },
+              "range_label": "process",
+              "score": 0.5015,
+              "matched_field": "definition",
+              "matched_text": "regulated by. inverse of regulates"
+            }
+          ]
+        }
+      ],
+      "properties": []
+    }
+  ]
+},
+  "relation_Enhancer_involves_RegulatoryAssociation__ontology_dpo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=Enhancer+involves+RegulatoryAssociation&ontology_ids=dpo&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "Enhancer involves RegulatoryAssociation",
+      "ontology_ids": "dpo",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "dpo",
+          "relations": [
+            {
+              "raw_relation": "Enhancer involves RegulatoryAssociation",
+              "query_text": "enhancer involves regulatory association",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.5015,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_Enhancer_involves_RegulatoryAssociation__ontology_mp.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=Enhancer+involves+RegulatoryAssociation&ontology_ids=mp&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "Enhancer involves RegulatoryAssociation",
+      "ontology_ids": "mp",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "mp",
+          "relations": [
+            {
+              "raw_relation": "Enhancer involves RegulatoryAssociation",
+              "query_text": "enhancer involves regulatory association",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.5015,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_Enhancer_involves_RegulatoryAssociation__ontology_uberon.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=Enhancer+involves+RegulatoryAssociation&ontology_ids=uberon&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "Enhancer involves RegulatoryAssociation",
+      "ontology_ids": "uberon",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "uberon",
+          "relations": [
+            {
+              "raw_relation": "Enhancer involves RegulatoryAssociation",
+              "query_text": "enhancer involves regulatory association",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.5015,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_associated_with_Disease__ontology_clo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+associated+with+Disease&ontology_ids=clo&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation associated with Disease",
+      "ontology_ids": "clo",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "clo",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation associated with Disease",
+              "query_text": "regulatory association associated with disease",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.5401,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_associated_with_Disease__ontology_dpo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+associated+with+Disease&ontology_ids=dpo&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation associated with Disease",
+      "ontology_ids": "dpo",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "dpo",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation associated with Disease",
+              "query_text": "regulatory association associated with disease",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.5401,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_associated_with_Disease__ontology_mp.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+associated+with+Disease&ontology_ids=mp&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation associated with Disease",
+      "ontology_ids": "mp",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "mp",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation associated with Disease",
+              "query_text": "regulatory association associated with disease",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.5401,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_associated_with_Disease__ontology_uberon.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+associated+with+Disease&ontology_ids=uberon&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation associated with Disease",
+      "ontology_ids": "uberon",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "uberon",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation associated with Disease",
+              "query_text": "regulatory association associated with disease",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.5401,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_has_target_Gene__ontology_clo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+has+target+Gene&ontology_ids=clo&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation has target Gene",
+      "ontology_ids": "clo",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "clo",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation has target Gene",
+              "query_text": "regulatory association has target gene",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.6089,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_has_target_Gene__ontology_dpo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+has+target+Gene&ontology_ids=dpo&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation has target Gene",
+      "ontology_ids": "dpo",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "dpo",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation has target Gene",
+              "query_text": "regulatory association has target gene",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.6089,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_has_target_Gene__ontology_mp.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+has+target+Gene&ontology_ids=mp&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation has target Gene",
+      "ontology_ids": "mp",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "mp",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation has target Gene",
+              "query_text": "regulatory association has target gene",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.6089,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_has_target_Gene__ontology_uberon.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+has+target+Gene&ontology_ids=uberon&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation has target Gene",
+      "ontology_ids": "uberon",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "uberon",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation has target Gene",
+              "query_text": "regulatory association has target gene",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.6089,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_occurs_in_TissueContext__ontology_clo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+occurs+in+TissueContext&ontology_ids=clo&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation occurs in TissueContext",
+      "ontology_ids": "clo",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "clo",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation occurs in TissueContext",
+              "query_text": "regulatory association occurs in tissue context",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.6417,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_occurs_in_TissueContext__ontology_dpo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+occurs+in+TissueContext&ontology_ids=dpo&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation occurs in TissueContext",
+      "ontology_ids": "dpo",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "dpo",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation occurs in TissueContext",
+              "query_text": "regulatory association occurs in tissue context",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.6417,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_occurs_in_TissueContext__ontology_mp.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+occurs+in+TissueContext&ontology_ids=mp&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation occurs in TissueContext",
+      "ontology_ids": "mp",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "mp",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation occurs in TissueContext",
+              "query_text": "regulatory association occurs in tissue context",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.6417,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_occurs_in_TissueContext__ontology_uberon.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+occurs+in+TissueContext&ontology_ids=uberon&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation occurs in TissueContext",
+      "ontology_ids": "uberon",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "uberon",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation occurs in TissueContext",
+              "query_text": "regulatory association occurs in tissue context",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.6417,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_regulated_by_TranscriptionFactor__ontology_clo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+regulated+by+TranscriptionFactor&ontology_ids=clo&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation regulated by TranscriptionFactor",
+      "ontology_ids": "clo",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "clo",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation regulated by TranscriptionFactor",
+              "query_text": "regulatory association regulated by transcription factor",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.648,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_regulated_by_TranscriptionFactor__ontology_dpo.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+regulated+by+TranscriptionFactor&ontology_ids=dpo&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation regulated by TranscriptionFactor",
+      "ontology_ids": "dpo",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "dpo",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation regulated by TranscriptionFactor",
+              "query_text": "regulatory association regulated by transcription factor",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.648,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_regulated_by_TranscriptionFactor__ontology_mp.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+regulated+by+TranscriptionFactor&ontology_ids=mp&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation regulated by TranscriptionFactor",
+      "ontology_ids": "mp",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "mp",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation regulated by TranscriptionFactor",
+              "query_text": "regulatory association regulated by transcription factor",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.648,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  },
+  "relation_RegulatoryAssociation_regulated_by_TranscriptionFactor__ontology_uberon.json": {
+    "ok": true,
+    "status_code": 200,
+    "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+regulated+by+TranscriptionFactor&ontology_ids=uberon&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+    "params": {
+      "description_text": "RegulatoryAssociation regulated by TranscriptionFactor",
+      "ontology_ids": "uberon",
+      "top_property_per_relation": 1,
+      "topk_index": 20,
+      "score_threshold": 0.5
+    },
+    "response": {
+      "is_plantuml": false,
+      "warnings": [],
+      "ontologies": [
+        {
+          "ontology_id": "uberon",
+          "relations": [
+            {
+              "raw_relation": "RegulatoryAssociation regulated by TranscriptionFactor",
+              "query_text": "regulatory association regulated by transcription factor",
+              "matches": [
+                {
+                  "domain": {
+                    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                    "label": "process"
+                  },
+                  "property": {
+                    "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                    "label": "regulated by"
+                  },
+                  "range_label": "process",
+                  "score": 0.648,
+                  "matched_field": "definition",
+                  "matched_text": "regulated by. inverse of regulates"
+                }
+              ]
+            }
+          ],
+          "properties": []
+        }
+      ]
+    }
+  }
+}

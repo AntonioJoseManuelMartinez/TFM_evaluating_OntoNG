@@ -1,0 +1,132 @@
+{
+  "Enhancer involves RegulatoryAssociation": {
+    "clo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "mp": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "uberon": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "dpo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    }
+  },
+  "RegulatoryAssociation occurs in TissueContext": {
+    "clo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "mp": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "uberon": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "dpo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    }
+  },
+  "RegulatoryAssociation associated with Disease": {
+    "clo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "mp": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "uberon": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "dpo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    }
+  },
+  "RegulatoryAssociation has target Gene": {
+    "clo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "mp": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "uberon": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "dpo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    }
+  },
+  "RegulatoryAssociation regulated by TranscriptionFactor": {
+    "clo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "mp": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "uberon": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    },
+    "dpo": {
+      "ok": true,
+      "status_code": 200,
+      "error_type": null,
+      "error_message": null
+    }
+  }
+}

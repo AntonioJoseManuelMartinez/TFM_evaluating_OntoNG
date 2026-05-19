@@ -1,0 +1,54 @@
+{
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "dpo",
+      "mapping": {
+        "tissueContext": [
+          {
+            "type": "class",
+            "score": 0.7209,
+            "matched_text": "portion of tissue",
+            "matched_field": "label",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/FBbt_00007003",
+              "label": [
+                "portion of tissue"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/FBbt_00007003",
+      "type": "Class",
+      "label": [
+        "portion of tissue"
+      ],
+      "comment": "Anatomical structure, that consists of similar cells and intercellular matrix, aggregated according to genetically determined spatial relationships.",
+      "synonyms": [],
+      "superClasses": [
+        "multicellular structure"
+      ],
+      "subClasses": [
+        "germ layer",
+        "anlage",
+        "epithelium"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [
+        "multi-tissue structure",
+        "cell cluster organ",
+        "compound cell cluster organ"
+      ],
+      "individuals": []
+    }
+  ]
+}

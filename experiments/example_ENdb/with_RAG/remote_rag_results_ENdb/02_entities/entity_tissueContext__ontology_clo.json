@@ -1,0 +1,71 @@
+{
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "clo",
+      "mapping": {
+        "tissueContext": [
+          {
+            "type": "class",
+            "score": 0.7516,
+            "matched_text": "tissue portion",
+            "matched_field": "synonym",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/UBERON_0000479",
+              "label": [
+                "tissue"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/UBERON_0000479",
+      "type": "Class",
+      "label": [
+        "tissue"
+      ],
+      "comment": "Multicellular anatomical structure that consists of many cells of one or a few types, arranged in an extracellular matrix such that their long-range organisation is at least partly a repetition of their short-range organisation.",
+      "synonyms": [
+        "tissue portion",
+        "portion of tissue",
+        "simple tissue"
+      ],
+      "superClasses": [
+        "multicellular anatomical structure"
+      ],
+      "subClasses": [
+        "external ectoderm",
+        "cell layer",
+        "epithelium",
+        "lymphoid tissue",
+        "bone marrow",
+        "connective tissue",
+        "muscle tissue",
+        "mesenchyme",
+        "neural tissue",
+        "optic vesicle",
+        "embryonic tissue",
+        "extraembryonic tissue",
+        "lens vesicle",
+        "corneal primordium",
+        "non-neural ectoderm",
+        "umbilicus",
+        "anlage",
+        "erectile tissue",
+        "nephron progenitor",
+        "heterogeneous tissue"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}

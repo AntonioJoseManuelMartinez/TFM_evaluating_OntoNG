@@ -1,0 +1,53 @@
+{
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "uberon",
+      "mapping": {
+        "gene": [
+          {
+            "type": "class",
+            "score": 0.7452,
+            "matched_text": "Category=gene.",
+            "matched_field": "comment",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/PR_000003353",
+              "label": [
+                "collagen alpha-1(VI) chain"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/PR_000003353",
+      "type": "Class",
+      "label": [
+        "collagen alpha-1(VI) chain"
+      ],
+      "comment": "Category=gene.",
+      "synonyms": [
+        "COL6A1"
+      ],
+      "superClasses": [
+        "collagen type VI alpha chain"
+      ],
+      "subClasses": [
+        "collagen alpha-1(VI) chain proteolytic cleavage product",
+        "collagen alpha-1(VI) chain (human)",
+        "collagen alpha-1(VI) chain (chicken)",
+        "collagen alpha-1(VI) chain (mouse)"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}

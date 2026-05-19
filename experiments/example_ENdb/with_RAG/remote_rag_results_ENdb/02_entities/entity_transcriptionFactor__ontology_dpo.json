@@ -1,0 +1,14 @@
+{
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "dpo",
+      "mapping": {
+        "transcriptionFactor": []
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": []
+}

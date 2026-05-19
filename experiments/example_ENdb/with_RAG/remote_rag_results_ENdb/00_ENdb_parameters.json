@@ -1,0 +1,34 @@
+{
+  "case": "ENdb",
+  "base_url": "https://semantics.inf.um.es/rag-api",
+  "strategy": "Small independent requests: one entity or one relation against one ontology at a time.",
+  "top_k_ontologies": 4,
+  "top_class_per_entity": 1,
+  "top_property_per_relation": 1,
+  "topk_index_relations": 20,
+  "score_threshold": 0.5,
+  "timeout_seconds": 100000,
+  "pause_seconds_between_requests": 1,
+  "ontology_description": "enhancer regulatory region cis-regulatory module transcription factor binding target gene gene regulation disease tissue cell type",
+  "entities": [
+    "enhancer",
+    "gene",
+    "transcriptionFactor",
+    "disease",
+    "tissueContext",
+    "regulatoryAssociation"
+  ],
+  "relations": [
+    "Enhancer involves RegulatoryAssociation",
+    "RegulatoryAssociation occurs in TissueContext",
+    "RegulatoryAssociation associated with Disease",
+    "RegulatoryAssociation has target Gene",
+    "RegulatoryAssociation regulated by TranscriptionFactor"
+  ],
+  "ontology_ids_used": [
+    "clo",
+    "mp",
+    "uberon",
+    "dpo"
+  ]
+}

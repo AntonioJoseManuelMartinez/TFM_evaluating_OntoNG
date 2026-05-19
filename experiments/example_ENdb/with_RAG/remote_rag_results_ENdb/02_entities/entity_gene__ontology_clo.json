@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "status_code": 200,
+  "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=gene&ontology_ids=clo&top_class_per_entity=1&score_threshold=0.5&context=True",
+  "params": {
+    "description_text": "gene",
+    "ontology_ids": "clo",
+    "top_class_per_entity": 1,
+    "score_threshold": 0.5,
+    "context": true
+  },
+  "response": {
+    "is_plantuml": false,
+    "warnings": [],
+    "ontologies": [
+      {
+        "ontology_id": "clo",
+        "mapping": {
+          "gene": [
+            {
+              "type": "class",
+              "score": 0.7452,
+              "matched_text": "Category=gene.",
+              "matched_field": "comment",
+              "class": {
+                "iri": "http://purl.obolibrary.org/obo/PR_000007636",
+                "label": [
+                  "forkhead box protein N1"
+                ]
+              }
+            }
+          ]
+        },
+        "score_threshold": 0.5
+      }
+    ],
+    "context": [
+      {
+        "id": "http://purl.obolibrary.org/obo/PR_000007636",
+        "type": "Class",
+        "label": [
+          "forkhead box protein N1"
+        ],
+        "comment": "Category=gene.",
+        "synonyms": [
+          "Hfh11",
+          "hepatocyte nuclear factor 3 forkhead homolog 11",
+          "WHN",
+          "FOXN1",
+          "HNF-3/forkhead homolog 11",
+          "Fkh19",
+          "RONU",
+          "HFH-11",
+          "winged-helix transcription factor nude"
+        ],
+        "superClasses": [
+          "protein",
+          "protein"
+        ],
+        "subClasses": [],
+        "objectProperties": [],
+        "dataProperties": [],
+        "equivalentClasses": [],
+        "disjointWith": [],
+        "individuals": []
+      }
+    ]
+  }
+}

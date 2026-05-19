@@ -1,0 +1,49 @@
+{
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "dpo",
+      "mapping": {
+        "gene": [
+          {
+            "type": "class",
+            "score": 0.5335,
+            "matched_text": "The execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module.",
+            "matched_field": "comment",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/FBdv_00007024",
+              "label": [
+                "biological process"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/FBdv_00007024",
+      "type": "Class",
+      "label": [
+        "biological process"
+      ],
+      "comment": "The execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module.",
+      "synonyms": [],
+      "superClasses": [
+        "occurrent"
+      ],
+      "subClasses": [
+        "developmental process",
+        "embryonic cycle"
+      ],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}

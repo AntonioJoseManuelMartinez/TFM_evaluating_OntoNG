@@ -1,0 +1,32 @@
+{
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "clo",
+      "relations": [
+        {
+          "raw_relation": "Enhancer involves RegulatoryAssociation",
+          "query_text": "enhancer involves regulatory association",
+          "matches": [
+            {
+              "domain": {
+                "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                "label": "process"
+              },
+              "property": {
+                "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                "label": "regulated by"
+              },
+              "range_label": "process",
+              "score": 0.5015,
+              "matched_field": "definition",
+              "matched_text": "regulated by. inverse of regulates"
+            }
+          ]
+        }
+      ],
+      "properties": []
+    }
+  ]
+}

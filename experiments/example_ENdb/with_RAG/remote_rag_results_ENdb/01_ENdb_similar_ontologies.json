@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "status_code": 200,
+  "url": "https://semantics.inf.um.es/rag-api/ontology/similar-ontologies?top_k=4&description_text=enhancer+regulatory+region+cis-regulatory+module+transcription+factor+binding+target+gene+gene+regulation+disease+tissue+cell+type",
+  "params": {
+    "top_k": 4,
+    "description_text": "enhancer regulatory region cis-regulatory module transcription factor binding target gene gene regulation disease tissue cell type"
+  },
+  "response": {
+    "is_plantuml": false,
+    "entities_count": 0,
+    "relations_count": 0,
+    "warnings": [],
+    "results": [
+      {
+        "ontologyId": "clo",
+        "filename": "clo.owl",
+        "score": 0.6270712018013
+      },
+      {
+        "ontologyId": "mp",
+        "filename": "mp.owl",
+        "score": 0.6261429190635681
+      },
+      {
+        "ontologyId": "uberon",
+        "filename": "uberon.owl",
+        "score": 0.6260601282119751
+      },
+      {
+        "ontologyId": "dpo",
+        "filename": "dpo.owl",
+        "score": 0.6208423972129822
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "status_code": 200,
+  "url": "https://semantics.inf.um.es/rag-api/ontology/similar-relations?description_text=RegulatoryAssociation+regulated+by+TranscriptionFactor&ontology_ids=uberon&top_property_per_relation=1&topk_index=20&score_threshold=0.5",
+  "params": {
+    "description_text": "RegulatoryAssociation regulated by TranscriptionFactor",
+    "ontology_ids": "uberon",
+    "top_property_per_relation": 1,
+    "topk_index": 20,
+    "score_threshold": 0.5
+  },
+  "response": {
+    "is_plantuml": false,
+    "warnings": [],
+    "ontologies": [
+      {
+        "ontology_id": "uberon",
+        "relations": [
+          {
+            "raw_relation": "RegulatoryAssociation regulated by TranscriptionFactor",
+            "query_text": "regulatory association regulated by transcription factor",
+            "matches": [
+              {
+                "domain": {
+                  "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+                  "label": "process"
+                },
+                "property": {
+                  "iri": "http://purl.obolibrary.org/obo/RO_0002334",
+                  "label": "regulated by"
+                },
+                "range_label": "process",
+                "score": 0.648,
+                "matched_field": "definition",
+                "matched_text": "regulated by. inverse of regulates"
+              }
+            ]
+          }
+        ],
+        "properties": []
+      }
+    ]
+  }
+}

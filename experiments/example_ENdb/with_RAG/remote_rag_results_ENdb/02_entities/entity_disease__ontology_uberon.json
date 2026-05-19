@@ -1,0 +1,80 @@
+{
+  "ok": true,
+  "status_code": 200,
+  "url": "https://semantics.inf.um.es/rag-api/ontology/similar-entities?description_text=disease&ontology_ids=uberon&top_class_per_entity=1&score_threshold=0.5&context=True",
+  "params": {
+    "description_text": "disease",
+    "ontology_ids": "uberon",
+    "top_class_per_entity": 1,
+    "score_threshold": 0.5,
+    "context": true
+  },
+  "response": {
+    "is_plantuml": false,
+    "warnings": [],
+    "ontologies": [
+      {
+        "ontology_id": "uberon",
+        "mapping": {
+          "disease": [
+            {
+              "type": "class",
+              "score": 0.5907,
+              "matched_text": "medicine",
+              "matched_field": "synonym",
+              "class": {
+                "iri": "http://purl.obolibrary.org/obo/CHEBI_23888",
+                "label": [
+                  "drug"
+                ]
+              }
+            }
+          ]
+        },
+        "score_threshold": 0.5
+      }
+    ],
+    "context": [
+      {
+        "id": "http://purl.obolibrary.org/obo/CHEBI_23888",
+        "type": "Class",
+        "label": [
+          "drug"
+        ],
+        "comment": "Any substance which when absorbed into a living organism may modify one or more of its functions. The term is generally accepted for a substance taken for a therapeutic purpose, but is also commonly used for abused substances.",
+        "synonyms": [
+          "drugs",
+          "medicine"
+        ],
+        "superClasses": [
+          "pharmaceutical"
+        ],
+        "subClasses": [
+          "antiinfective agent",
+          "central nervous system drug",
+          "anti-inflammatory drug",
+          "analgesic",
+          "bronchodilator agent",
+          "cardiovascular drug",
+          "neurotransmitter agent",
+          "anaesthetic",
+          "protective agent",
+          "mydriatic agent",
+          "bone density conservation agent",
+          "reproductive control drug",
+          "nutraceutical",
+          "immunomodulator",
+          "antacid",
+          "vulnerary",
+          "astringent",
+          "receptor modulator"
+        ],
+        "objectProperties": [],
+        "dataProperties": [],
+        "equivalentClasses": [],
+        "disjointWith": [],
+        "individuals": []
+      }
+    ]
+  }
+}

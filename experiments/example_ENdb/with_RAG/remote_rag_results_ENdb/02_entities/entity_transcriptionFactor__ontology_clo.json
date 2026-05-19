@@ -1,0 +1,53 @@
+{
+  "is_plantuml": false,
+  "warnings": [],
+  "ontologies": [
+    {
+      "ontology_id": "clo",
+      "mapping": {
+        "transcriptionFactor": [
+          {
+            "type": "class",
+            "score": 0.7116,
+            "matched_text": "transcription factor PU.1",
+            "matched_field": "label",
+            "class": {
+              "iri": "http://purl.obolibrary.org/obo/PR_000001944",
+              "label": [
+                "transcription factor PU.1"
+              ]
+            }
+          }
+        ]
+      },
+      "score_threshold": 0.5
+    }
+  ],
+  "context": [
+    {
+      "id": "http://purl.obolibrary.org/obo/PR_000001944",
+      "type": "Class",
+      "label": [
+        "transcription factor PU.1"
+      ],
+      "comment": "Category=gene. Requested by=CL.",
+      "synonyms": [
+        "31 kDa-transforming protein",
+        "SFFV proviral integration 1 protein",
+        "SPI1",
+        "Sfpi-1",
+        "Sfpi1"
+      ],
+      "superClasses": [
+        "protein",
+        "protein"
+      ],
+      "subClasses": [],
+      "objectProperties": [],
+      "dataProperties": [],
+      "equivalentClasses": [],
+      "disjointWith": [],
+      "individuals": []
+    }
+  ]
+}
